@@ -1,0 +1,377 @@
+{
+  "checked": "2026-09-22",
+  "bases": {
+    "calvi": {
+      "name": "La Signoria",
+      "lat": 42.5369582,
+      "lng": 8.7849982,
+      "url": "https://www.hotel-la-signoria.com/",
+      "coordinate_source": "https://www.openstreetmap.org/way/244735911",
+      "address": "Route de la forêt de Bonifato, 20260 Calvi, France",
+      "address_source": "https://www.hotel-la-signoria.com/acces-contact-hotel-la-signoria/",
+      "maps_query": "La Signoria, Route de la forêt de Bonifato, 20260 Calvi, France"
+    },
+    "pv": {
+      "name": "Les Lofts de Sainte-Lucie",
+      "lat": 41.71174,
+      "lng": 9.39577,
+      "url": "https://lesloftsdesaintelucie.com/",
+      "coordinate_source": "https://www.zonza-saintelucie.com/hebergement-locatif/les-lofts-de-sainte-lucie-h0/",
+      "address": "Lieu-dit Parata, 20144 Sainte-Lucie-de-Porto-Vecchio, France",
+      "address_source": "https://lesloftsdesaintelucie.com/",
+      "maps_query": "Les Lofts de Sainte-Lucie, Lieu-dit Parata, 20144 Sainte-Lucie-de-Porto-Vecchio, France"
+    }
+  },
+  "arrivals": [
+    {
+      "id": "calvi",
+      "name": "Calvi & sa citadelle",
+      "arrival": "Parking du port de commerce, 20260 Calvi",
+      "lat": 42.5670349,
+      "lng": 8.7609692,
+      "coordinate_source": "https://www.openstreetmap.org/way/622063939",
+      "access_source": "https://ville-calvi.corsica/parking-et-stationnement/",
+      "note": "Rejoignez la citadelle à pied. Notre-Dame-de-la-Serra est une étape distincte."
+    },
+    {
+      "id": "balagne",
+      "name": "Pigna · Sant’Antonino · Corbara",
+      "arrival": "Parking U Corsu, entrée du village, 20220 Sant’Antonino",
+      "lat": 42.5892404,
+      "lng": 8.9065276,
+      "coordinate_source": "https://www.openstreetmap.org/way/301746523",
+      "access_source": "https://balagne-corsica.com/decouvrir-la-balagne/villages-arriere-pays/sant-antonino/",
+      "note": "Arrivée à Sant’Antonino uniquement ; Pigna et Corbara sont des étapes supplémentaires."
+    },
+    {
+      "id": "occi",
+      "name": "Lumio & Occi",
+      "arrival": "Parking public de Lumio, T30, 20260 Lumio",
+      "lat": 42.5809652,
+      "lng": 8.8323268,
+      "coordinate_source": "https://www.openstreetmap.org/way/346053528",
+      "access_source": "https://balagne-corsica.com/patrimoine-culturel/village-abandonne-docci/",
+      "note": "Départ du sentier près de l’hôtel A Casa di Mà ; Occi se rejoint uniquement à pied."
+    },
+    {
+      "id": "bodri",
+      "name": "Plage de Bodri",
+      "arrival": "Parking de Bodri, accès depuis la T30, 20256 Corbara",
+      "lat": 42.6261187,
+      "lng": 8.9119216,
+      "coordinate_source": "https://www.openstreetmap.org/way/130886704",
+      "access_source": "https://balagne-corsica.com/decouvrir-la-balagne/mer-et-plages/bodri-et-ghjunchitu/",
+      "note": "Continuez à pied jusqu’à la plage ; les distances s’arrêtent au parking."
+    },
+    {
+      "id": "algajola",
+      "name": "Algajola & Aregno",
+      "arrival": "Parking Place de la Gare, 20220 Algajola",
+      "lat": 42.6084765,
+      "lng": 8.8606014,
+      "coordinate_source": "https://www.openstreetmap.org/way/821135139",
+      "access_source": "https://www.balagne-corsica.com/algajola/",
+      "note": "Village et plage d’Aregno accessibles à pied depuis le stationnement."
+    },
+    {
+      "id": "revellata",
+      "name": "La Revellata",
+      "arrival": "Parking au départ de la Revellata, route de Porto (D81B), 20260 Calvi",
+      "lat": 42.5517801,
+      "lng": 8.7362143,
+      "coordinate_source": "https://www.openstreetmap.org/way/129911414",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LA-REVELLATA",
+      "note": "Continuez à pied sur la presqu’île ; ne suivez pas les pistes en voiture vers le phare."
+    },
+    {
+      "id": "asco",
+      "name": "Vallée d’Asco & pont génois",
+      "arrival": "Stationnement en bord de route vers le pont génois, 20276 Asco",
+      "lat": 42.4495962,
+      "lng": 9.0299131,
+      "coordinate_source": "https://www.openstreetmap.org/way/980794576",
+      "access_source": "https://fr.wikipedia.org/wiki/Asco",
+      "note": "Le trajet routier s’arrête au stationnement ; poursuivez à pied vers le pont génois."
+    },
+    {
+      "id": "ilerousse",
+      "name": "L’Île-Rousse & ses plages",
+      "arrival": "Parking Place Pascal Paoli, 20220 L’Île-Rousse",
+      "lat": 42.6344028,
+      "lng": 8.939235,
+      "coordinate_source": "https://www.openstreetmap.org/way/212099136",
+      "access_source": "https://balagne-corsica.com/decouvrir-la-balagne/ile-rousse/",
+      "note": "Continuez à pied vers le marché, la vieille ville et la plage."
+    },
+    {
+      "id": "fango",
+      "name": "Vallée du Fango",
+      "arrival": "Parking de la Rocciosa, vallée du Fango, 20245 Manso",
+      "lat": 42.3831672,
+      "lng": 8.752107,
+      "coordinate_source": "https://www.openstreetmap.org/node/13070277002",
+      "access_source": "https://balagne-corsica.com/decouvrir-la-balagne/nos-espaces-preserves/vallee-du-fango/",
+      "note": "Accès à la rivière à pied ; le pont de Tuarelli est une promenade distincte."
+    },
+    {
+      "id": "bonifacio",
+      "name": "Bonifacio",
+      "arrival": "Parking P1 de la Marine, 20169 Bonifacio",
+      "lat": 41.3891236,
+      "lng": 9.1662699,
+      "coordinate_source": "https://www.openstreetmap.org/way/26297803",
+      "access_source": "https://www.bonifacio-mairie.fr/ma-commune/parkings/",
+      "note": "P1 est au port, pas dans la Haute-Ville : prévoyez ensuite la montée à pied."
+    },
+    {
+      "id": "rondinara",
+      "name": "Rondinara",
+      "arrival": "Parking de Rondinara, accès par la D158, 20169 Bonifacio",
+      "lat": 41.4673298,
+      "lng": 9.2645952,
+      "coordinate_source": "https://www.openstreetmap.org/way/129407048",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-RONDINARA",
+      "note": "Fin du trajet au parking ; plage à rejoindre à pied."
+    },
+    {
+      "id": "sperone",
+      "name": "Piantarella & Petit Sperone",
+      "arrival": "Stationnement de Piantarella, extrémité de la route de Piantarella, 20169 Bonifacio",
+      "lat": 41.3768865,
+      "lng": 9.2214138,
+      "coordinate_source": "https://www.openstreetmap.org/way/1082778377",
+      "access_source": "https://bonifacio.fr/a-voir-a-faire/les-plus-belles-plages-de-bonifacio/plage-de-sperone/",
+      "note": "Rejoignez Petit Sperone à pied par le littoral. Ne pas entrer par le golf."
+    },
+    {
+      "id": "palombaggia",
+      "name": "Palombaggia",
+      "arrival": "Parking d’accès nord à Palombaggia, 20137 Porto-Vecchio",
+      "lat": 41.5615277,
+      "lng": 9.3366538,
+      "coordinate_source": "https://www.openstreetmap.org/way/1067938335",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-PALOMBAGGIA-CALA-DI-LUNA",
+      "note": "Accès à la plage à pied depuis le parking ; les conditions de stationnement sont affichées sur place."
+    },
+    {
+      "id": "santagiulia",
+      "name": "Santa Giulia",
+      "arrival": "Parking d’accès à la plage de Santa Giulia, 20137 Porto-Vecchio",
+      "lat": 41.5323322,
+      "lng": 9.2729844,
+      "coordinate_source": "https://www.openstreetmap.org/way/292096506",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-SANTA-GIULIA",
+      "note": "Le point d’arrivée est le parking, à proximité du rivage, et non le lagon."
+    },
+    {
+      "id": "pinarellu",
+      "name": "Pinarellu — plage & village marin",
+      "arrival": "Parking de Pinareddu, 20144 Pinarello, Sainte-Lucie-de-Porto-Vecchio",
+      "lat": 41.6832962,
+      "lng": 9.3763589,
+      "coordinate_source": "https://www.openstreetmap.org/way/500769489",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Accessibilite/Tous-les-prestataires-accessibilites/PARKING-DE-PINAREDDU",
+      "note": "Arrivée au parking référencé par l’office de tourisme ; poursuivez à pied vers la plage et le village marin."
+    },
+    {
+      "id": "ospedale",
+      "name": "L’Ospedale",
+      "arrival": "Parking près du barrage de l’Ospedale, D368, 20137 Porto-Vecchio",
+      "lat": 41.6680914,
+      "lng": 9.2084659,
+      "coordinate_source": "https://www.openstreetmap.org/way/819862892",
+      "access_source": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/barrage-de-lospedale/",
+      "note": "Arrivée au parking près du barrage. Le village de l’Ospedale est une étape distincte."
+    },
+    {
+      "id": "zonza",
+      "name": "Zonza & aiguilles de Bavella",
+      "arrival": "Parking de Bavella, col de Bavella (D268), 20122 Quenza",
+      "lat": 41.7954648,
+      "lng": 9.2240459,
+      "coordinate_source": "https://www.openstreetmap.org/way/61963036",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LES-AIGUILLES-DE-BAVELLA",
+      "note": "Le trajet chiffré mène au col ; un détour par le village de Zonza est à ajouter."
+    },
+    {
+      "id": "levie",
+      "name": "Levie & Cucuruzzu",
+      "arrival": "Parking des sites de Cucuruzzu et Capula, Pianu di Livia, 20170 Levie",
+      "lat": 41.7171695,
+      "lng": 9.1284093,
+      "coordinate_source": "https://www.openstreetmap.org/way/499366317",
+      "access_source": "https://www.alta-rocca-tourisme.com/patrimoine-culturel/sites-archeologiques-de-cuccuruzzu-et-de-capula/",
+      "note": "Rejoignez l’accueil puis le circuit archéologique à pied ; les vestiges ne sont pas accessibles en voiture."
+    },
+    {
+      "id": "sartene",
+      "name": "Sartène",
+      "arrival": "Parking Saint-Damien, 20100 Sartène",
+      "lat": 41.6198412,
+      "lng": 8.9697087,
+      "coordinate_source": "https://www.openstreetmap.org/way/828169082",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/SARTE-SARTENE",
+      "note": "Poursuivez à pied vers la place Porta et la vieille ville."
+    },
+    {
+      "id": "roccapina",
+      "name": "Roccapina",
+      "arrival": "Parking de la maison de site A Casa di Roccapina, col de Roccapina (T40), 20100 Sartène",
+      "lat": 41.4984381,
+      "lng": 8.9488834,
+      "coordinate_source": "https://www.openstreetmap.org/way/1064369069",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/A-CASA-DI-ROCCAPINA",
+      "note": "Arrivée à la maison de site ; la plage de Roccapina n’est pas incluse dans ce trajet."
+    },
+    {
+      "id": "lavezzi",
+      "name": "Îles Lavezzi",
+      "arrival": "Parking P1 de la Marine, 20169 Bonifacio",
+      "lat": 41.3891236,
+      "lng": 9.1662699,
+      "coordinate_source": "https://www.openstreetmap.org/way/26297803",
+      "access_source": "https://www.bonifacio-mairie.fr/ma-commune/parkings/",
+      "note": "Garez-vous au port puis rejoignez à pied l’embarquement indiqué par votre compagnie. Traversée en bateau à ajouter."
+    },
+    {
+      "id": "pozzi",
+      "name": "Plateau du Coscione",
+      "arrival": "Parking de Bucchinera, accès par Quenza, plateau du Coscione",
+      "lat": 41.8233133,
+      "lng": 9.1415655,
+      "coordinate_source": "https://www.openstreetmap.org/way/1076706874",
+      "access_source": "https://tracesdaventure.fr/2026/07/16/monte-incudine-alcudina-par-le-plateau-du-cuscione/",
+      "note": "Route d’accès étroite et dégradée par endroits : vérifiez son état avant de monter. Continuez à pied depuis Bucchinera."
+    },
+    {
+      "id": "cavu",
+      "name": "Piscines naturelles du Cavu",
+      "arrival": "Parking municipal du Cavu, San Martinu, 20144 Sainte-Lucie-de-Porto-Vecchio",
+      "lat": 41.7218061,
+      "lng": 9.2998182,
+      "coordinate_source": "https://www.openstreetmap.org/way/717575939",
+      "access_source": "https://www.zonza-saintelucie.com/vallee-du-cavu-reouverture-partielle/",
+      "note": "Stationnez à l’entrée de la vallée, près du bureau d’information. Vérifiez sur place les accès autorisés et la navette vers les 3 Piscines."
+    },
+    {
+      "id": "ajaccio",
+      "name": "Ajaccio & îles Sanguinaires",
+      "arrival": "Parking P1 de la Parata, route des Sanguinaires, 20000 Ajaccio",
+      "lat": 41.9017486,
+      "lng": 8.6180544,
+      "coordinate_source": "https://www.openstreetmap.org/way/637602310",
+      "access_source": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/",
+      "note": "Le trajet mène à la Parata. Le centre d’Ajaccio et toute traversée vers les îles sont des étapes distinctes."
+    },
+    {
+      "id": "urbino",
+      "name": "Étang d’Urbino",
+      "arrival": "Parking près du restaurant d’Urbino, Strada d’Urbinu, 20240 Ghisonaccia",
+      "lat": 42.0538831,
+      "lng": 9.4677923,
+      "coordinate_source": "https://www.openstreetmap.org/way/729373284",
+      "access_source": "https://www.corseorientale.com/A-voir-A-faire/Art-de-vivre/Restaurants/FERME-D-URBINU",
+      "note": "Accès par la rive près du restaurant, pas par le centre de l’étang. Respectez les accès privés et les consignes sur place."
+    },
+    {
+      "id": "corte",
+      "name": "Corte & vallée de la Restonica",
+      "arrival": "Parking Xavier Luciani, 20250 Corte",
+      "lat": 42.3057569,
+      "lng": 9.1514768,
+      "coordinate_source": "https://www.openstreetmap.org/way/655479807",
+      "access_source": "https://tourisme-centrecorse.corsica/la-vallee-de-la-restonica-2/",
+      "note": "Visitez Corte à pied. La Restonica n’est pas incluse : renseignez-vous à l’office de tourisme sur les accès et navettes du jour."
+    },
+    {
+      "id": "capcorse",
+      "name": "Cap Corse",
+      "arrival": "Parking du port de Macinaggio, 20247 Rogliano",
+      "lat": 42.9595476,
+      "lng": 9.4533017,
+      "coordinate_source": "https://www.openstreetmap.org/way/1055313211",
+      "access_source": "https://www.capcorse-tourisme.corsica/cap-corse-que-faire-les-incontournables/",
+      "note": "Arrivée à Macinaggio uniquement ; le tour du Cap Corse n’est pas inclus."
+    },
+    {
+      "id": "nonza",
+      "name": "Nonza",
+      "arrival": "Stationnement visiteurs en bord de D80, 20217 Nonza",
+      "lat": 42.784378,
+      "lng": 9.3447361,
+      "coordinate_source": "https://www.openstreetmap.org/way/1067095116",
+      "access_source": "https://destination-cap-corse.corsica/nonza/",
+      "note": "Rejoignez le village et la tour à pied. Le parking voisin réservé aux résidents n’est pas celui retenu."
+    },
+    {
+      "id": "agriates",
+      "name": "Saint-Florent & désert des Agriates",
+      "arrival": "Parking du centre près du port, 20217 Saint-Florent",
+      "lat": 42.6798997,
+      "lng": 9.3017448,
+      "coordinate_source": "https://www.openstreetmap.org/way/300236666",
+      "access_source": "https://www.corsica-saintflorent.com/lagriate/",
+      "note": "Rejoignez à pied le quai indiqué par votre compagnie ; la traversée vers les Agriates est à ajouter."
+    },
+    {
+      "id": "piana",
+      "name": "Calanques de Piana & Scandola",
+      "arrival": "Parking de la Marine de Porto, 20150 Ota",
+      "lat": 42.2681165,
+      "lng": 8.6938336,
+      "coordinate_source": "https://www.openstreetmap.org/way/297999717",
+      "access_source": "https://www.ouestcorsica.com/les-incontournables/les-calanques-de-piana-site-unesco/",
+      "note": "Rejoignez l’embarquement à pied. Croisière vers Scandola et visite de Piana par la route non incluses."
+    },
+    {
+      "id": "caporosso",
+      "name": "Capo Rosso",
+      "arrival": "Parking du Capo Rosso, route d’Arone (D824), 20115 Piana",
+      "lat": 42.23524,
+      "lng": 8.5835494,
+      "coordinate_source": "https://www.openstreetmap.org/way/130449369",
+      "access_source": "https://www.ouestcorsica.com/itineraires/tour-genoise-de-capo-rosso/",
+      "note": "Départ de randonnée au parking ; la tour se rejoint à pied, pas en voiture."
+    },
+    {
+      "id": "cargese",
+      "name": "Cargèse",
+      "arrival": "Parking Place Chanoine Mattéi, 20130 Cargèse",
+      "lat": 42.1337586,
+      "lng": 8.5967676,
+      "coordinate_source": "https://www.openstreetmap.org/way/364701925",
+      "access_source": "https://www.ouestcorsica.com/a-voir-a-faire/les-villages/cargese/",
+      "note": "Les deux églises se visitent ensuite à pied depuis le village."
+    },
+    {
+      "id": "cascadeanglais",
+      "name": "Cascade des Anglais",
+      "arrival": "Parking de la gare de Vizzavona, D523, 20219 Vivario",
+      "lat": 42.1282867,
+      "lng": 9.1337106,
+      "coordinate_source": "https://www.openstreetmap.org/way/446652269",
+      "access_source": "https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS",
+      "note": "Départ à pied depuis la gare ; les cascades ne sont pas le point d’arrivée en voiture."
+    },
+    {
+      "id": "saintcyprien",
+      "name": "Saint-Cyprien — plage & baie",
+      "arrival": "Parking Piazza di a Marina, Saint-Cyprien, 20137 Lecci",
+      "lat": 41.6334304,
+      "lng": 9.3451192,
+      "coordinate_source": "https://www.openstreetmap.org/way/224876368",
+      "access_source": "https://www.cirkwi.com/fr/point-interet/1749873-la-plage-de-saint-cyprien",
+      "note": "Accès à la plage à pied depuis la place ; le repère routier est sur terre, près du village."
+    },
+    {
+      "id": "portovecchio",
+      "name": "Porto-Vecchio — vieille ville & port",
+      "arrival": "Parking Centre Ville P0, 20137 Porto-Vecchio",
+      "lat": 41.5928216,
+      "lng": 9.2797701,
+      "coordinate_source": "https://www.openstreetmap.org/way/758454795",
+      "access_source": "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Offres-art-et-culture/Visite-guidee-de-la-citadelle-de-Porto-Vecchio-avec-l-Office-de-tourisme",
+      "note": "Rejoignez la citadelle à pied ; la descente vers le port est une promenade supplémentaire."
+    }
+  ]
+}

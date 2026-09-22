@@ -1,53 +1,56 @@
-# Distances depuis les hébergements — 22 septembre 2026
+# Départs et arrivées — contrôle du 22 septembre 2026
 
-Calculs routiers OSRM / OpenStreetMap, aller simple, hors trafic. Distances arrondies au km et temps arrondis au multiple de 5 minutes supérieur. Les parcours à pied, traversées en bateau et circuits entre plusieurs étapes ne sont pas inclus. Les itinéraires pointent vers le même accès que le calcul.
+## Hébergements
 
-Le séjour conseillé est celui dont le trajet calculé est le plus court en temps. Une grande excursion désigne ici au moins 90 minutes aller depuis cet hébergement.
+- **La Signoria** : Route de la forêt de Bonifato, 20260 Calvi, France. [Adresse publiée par l’hébergement](https://www.hotel-la-signoria.com/acces-contact-hotel-la-signoria/). Coordonnées utilisées pour le calcul routier : 42.5369582, 8.7849982. [Source de localisation](https://www.openstreetmap.org/way/244735911).
+- **Les Lofts de Sainte-Lucie** : Lieu-dit Parata, 20144 Sainte-Lucie-de-Porto-Vecchio, France. [Adresse publiée par l’hébergement](https://lesloftsdesaintelucie.com/). Coordonnées utilisées pour le calcul routier : 41.71174, 9.39577. [Source de localisation](https://www.zonza-saintelucie.com/hebergement-locatif/les-lofts-de-sainte-lucie-h0/).
 
-Origines :
-- La Signoria : 42.53695, 8.78501. Adresse confirmée sur https://www.hotel-la-signoria.com/ ; coordonnées OSM : https://mapcarta.com/fr/32837500
-- Les Lofts de Sainte-Lucie : 41.71174, 9.39577. Coordonnées publiées par l’office de tourisme : https://www.zonza-saintelucie.com/hebergement-locatif/les-lofts-de-sainte-lucie-h0/
+## Méthode et limites
 
-Les points d’accès ont été rapprochés du réseau routier. Le départ des Lavezzi est le port de Bonifacio ; Bavella vise le col ; la Revellata et Capo Rosso visent le début de la balade, non le phare ou la tour. Les conseils multi-étapes ne sont pas des circuits chiffrés.
+Les 35 points d’arrivée ont été rapprochés des indications touristiques et de la cartographie OpenStreetMap. Les destinations routières sont des parkings ou des stationnements identifiés, pas les centres des plages, les vestiges ou les îles. Les emplacements signalés privés, réservés aux clients ou aux résidents ont été écartés. Un parking peut être payant ou complet.
 
-| Activité | La Signoria | Les Lofts | Séjour conseillé | Point d’accès |
-|---|---:|---:|---|---|
-| Calvi & sa citadelle | 7 km · 15 min | 183 km · 190 min | Calvi | Citadelle de Calvi, 20260 Calvi |
-| Pigna · Sant’Antonino · Corbara | 19 km · 25 min | 173 km · 180 min | Calvi | Parking Sant'Antonino, 20220 Sant'Antonino |
-| Lumio & Occi | 8 km · 10 min | 173 km · 175 min | Calvi | Lumio, Haute-Corse |
-| Plage de Bodri | 19 km · 25 min | 162 km · 165 min | Calvi | Parking plage de Bodri, Corbara |
-| Algajola & Aregno | 14 km · 20 min | 167 km · 170 min | Calvi | Plage d'Algajola, 20220 Algajola |
-| La Revellata | 10 km · 20 min | 187 km · 200 min | Calvi | Parking de la Revellata, route de Porto, Calvi |
-| Vallée d’Asco & pont génois | 77 km · 85 min | 138 km · 140 min | Calvi | Pont Génois d'Asco, Asco |
-| L’Île-Rousse & ses plages | 22 km · 30 min | 159 km · 160 min | Calvi | Place Paoli, L'Île-Rousse |
-| Vallée du Fango | 30 km · 40 min | 209 km · 220 min | Calvi | Pont de Tuarelli, Manso |
-| Bonifacio | 228 km · 245 min | 48 km · 60 min | Porto-Vecchio | Parking P1, Bonifacio |
-| Rondinara | 221 km · 240 min | 41 km · 55 min | Porto-Vecchio | Parking plage de Rondinara, Bonifacio |
-| Piantarella & Petit Sperone | 232 km · 250 min | 52 km · 65 min | Porto-Vecchio | Parking de Piantarella, Bonifacio |
-| Palombaggia | 213 km · 225 min | 33 km · 40 min | Porto-Vecchio | Parking de la plage de Palombaggia, Porto-Vecchio |
-| Santa Giulia | 208 km · 220 min | 28 km · 40 min | Porto-Vecchio | Plage de Santa Giulia, Porto-Vecchio |
-| Pinarellu — plage & village marin | 190 km · 200 min | 9 km · 15 min | Porto-Vecchio | Plage de Pinarello, 20144 Sainte-Lucie-de-Porto-Vecchio |
-| L’Ospedale | 217 km · 225 min | 34 km · 45 min | Porto-Vecchio | Barrage de l'Ospedale, Porto-Vecchio |
-| Zonza & aiguilles de Bavella | 191 km · 200 min | 49 km · 55 min | Porto-Vecchio | Col de Bavella, Quenza |
-| Levie & Cucuruzzu | 216 km · 230 min | 63 km · 85 min | Porto-Vecchio | Site archéologique de Cucuruzzu, Levie |
-| Sartène | 228 km · 225 min | 81 km · 90 min | Porto-Vecchio | Place Porta, Sartène |
-| Roccapina | 248 km · 240 min | 59 km · 70 min | Porto-Vecchio | A Casa di Roccapina, Sartène |
-| Îles Lavezzi | 228 km · 245 min | 48 km · 60 min | Porto-Vecchio | Port de Bonifacio, Bonifacio |
-| Plateau du Coscione | 210 km · 240 min | 70 km · 100 min | Porto-Vecchio | Parking de Bucchinera, Quenza |
-| Piscines naturelles du Cavu | 187 km · 195 min | 7 km · 15 min | Porto-Vecchio | Bureau d'Information Touristique du Cavu, Sainte-Lucie-de-Porto-Vecchio |
-| Ajaccio & îles Sanguinaires | 173 km · 180 min | 148 km · 165 min | Porto-Vecchio | Parking de la Parata, Ajaccio |
-| Étang d’Urbino | 140 km · 145 min | 46 km · 55 min | Porto-Vecchio | Étang d'Urbino, Ghisonaccia |
-| Corte & vallée de la Restonica | 83 km · 90 min | 98 km · 100 min | Calvi | Office de Tourisme de Corte, Corte |
-| Cap Corse | 125 km · 150 min | 159 km · 175 min | Calvi | Macinaggio, Rogliano |
-| Nonza | 86 km · 100 min | 150 km · 160 min | Calvi | Nonza, Haute-Corse |
-| Saint-Florent & désert des Agriates | 67 km · 75 min | 134 km · 145 min | Calvi | Port de Saint-Florent, Saint-Florent |
-| Calanques de Piana & Scandola | 71 km · 85 min | 183 km · 195 min | Calvi | Port de Porto, Ota |
-| Capo Rosso | 87 km · 100 min | 193 km · 210 min | Calvi | Parking Capo Rosso, Piana |
-| Cargèse | 99 km · 110 min | 169 km · 180 min | Calvi | Église grecque Saint-Spyridon, Cargèse |
-| Cascade des Anglais | 113 km · 115 min | 88 km · 100 min | Porto-Vecchio | Gare de Vizzavona, Vivario |
-| Saint-Cyprien — plage & baie | 195 km · 205 min | 15 km · 25 min | Porto-Vecchio | Accès plage de Saint-Cyprien, Lecci |
-| Porto-Vecchio — vieille ville & port | 200 km · 210 min | 19 km · 25 min | Porto-Vecchio | Parking Centre Ville, Porto-Vecchio |
+Les liens Google Maps précisent le nom et l’adresse complète de l’hébergement au départ, et les coordonnées du stationnement à l’arrivée. Les coordonnées sont issues de surfaces ou de points cartographiques ; elles ne garantissent pas l’emplacement exact d’une barrière ni l’ouverture de l’accès. Les sites naturels n’ont pas tous une adresse numérotée : la commune, la voie ou le lieu-dit et le point GPS servent alors de repères.
 
-## Validation
+Les distances et durées sont calculées par OSRM / OpenStreetMap depuis les coordonnées des hébergements et jusqu’aux stationnements, arrondies au kilomètre et aux cinq minutes supérieures. OSRM rattache les points à son réseau routier ; Google Maps peut choisir un autre parcours. Trafic, pauses, marche, bateau et détours des visites regroupées sont exclus. Les restrictions temporaires ne peuvent pas être garanties par le calcul routier.
 
-35 cartes et recommandations ; 70 trajets ; filtres par séjour ; liens avec origine ; comparaison ; favoris ; FR/ES ; aucune photo cassée en densité Retina ; 35 repères ; aucune erreur JavaScript ni débordement à 390 px.
+Pour le Cavu, suivre les consignes du bureau d’accueil et les règles municipales du jour. Pour la Restonica, le trajet s’arrête à Corte : vérifier ensuite les accès et transports. Pour Bucchinera, vérifier l’état de la route. Pour les bateaux, le quai précis dépend de la compagnie réservée.
+
+## Arrivées et sources
+
+| Activité | Arrivée routière | GPS | Contrôle | Suite du parcours |
+| --- | --- | --- | --- | --- |
+| Calvi & sa citadelle | Parking du port de commerce, 20260 Calvi | 42.5670349, 8.7609692 | [Cartographie](https://www.openstreetmap.org/way/622063939) · [Accès](https://ville-calvi.corsica/parking-et-stationnement/) | Rejoignez la citadelle à pied. Notre-Dame-de-la-Serra est une étape distincte. |
+| Pigna · Sant’Antonino · Corbara | Parking U Corsu, entrée du village, 20220 Sant’Antonino | 42.5892404, 8.9065276 | [Cartographie](https://www.openstreetmap.org/way/301746523) · [Accès](https://balagne-corsica.com/decouvrir-la-balagne/villages-arriere-pays/sant-antonino/) | Arrivée à Sant’Antonino uniquement ; Pigna et Corbara sont des étapes supplémentaires. |
+| Lumio & Occi | Parking public de Lumio, T30, 20260 Lumio | 42.5809652, 8.8323268 | [Cartographie](https://www.openstreetmap.org/way/346053528) · [Accès](https://balagne-corsica.com/patrimoine-culturel/village-abandonne-docci/) | Départ du sentier près de l’hôtel A Casa di Mà ; Occi se rejoint uniquement à pied. |
+| Plage de Bodri | Parking de Bodri, accès depuis la T30, 20256 Corbara | 42.6261187, 8.9119216 | [Cartographie](https://www.openstreetmap.org/way/130886704) · [Accès](https://balagne-corsica.com/decouvrir-la-balagne/mer-et-plages/bodri-et-ghjunchitu/) | Continuez à pied jusqu’à la plage ; les distances s’arrêtent au parking. |
+| Algajola & Aregno | Parking Place de la Gare, 20220 Algajola | 42.6084765, 8.8606014 | [Cartographie](https://www.openstreetmap.org/way/821135139) · [Accès](https://www.balagne-corsica.com/algajola/) | Village et plage d’Aregno accessibles à pied depuis le stationnement. |
+| La Revellata | Parking au départ de la Revellata, route de Porto (D81B), 20260 Calvi | 42.5517801, 8.7362143 | [Cartographie](https://www.openstreetmap.org/way/129911414) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LA-REVELLATA) | Continuez à pied sur la presqu’île ; ne suivez pas les pistes en voiture vers le phare. |
+| Vallée d’Asco & pont génois | Stationnement en bord de route vers le pont génois, 20276 Asco | 42.4495962, 9.0299131 | [Cartographie](https://www.openstreetmap.org/way/980794576) · [Accès](https://fr.wikipedia.org/wiki/Asco) | Le trajet routier s’arrête au stationnement ; poursuivez à pied vers le pont génois. |
+| L’Île-Rousse & ses plages | Parking Place Pascal Paoli, 20220 L’Île-Rousse | 42.6344028, 8.939235 | [Cartographie](https://www.openstreetmap.org/way/212099136) · [Accès](https://balagne-corsica.com/decouvrir-la-balagne/ile-rousse/) | Continuez à pied vers le marché, la vieille ville et la plage. |
+| Vallée du Fango | Parking de la Rocciosa, vallée du Fango, 20245 Manso | 42.3831672, 8.752107 | [Cartographie](https://www.openstreetmap.org/node/13070277002) · [Accès](https://balagne-corsica.com/decouvrir-la-balagne/nos-espaces-preserves/vallee-du-fango/) | Accès à la rivière à pied ; le pont de Tuarelli est une promenade distincte. |
+| Bonifacio | Parking P1 de la Marine, 20169 Bonifacio | 41.3891236, 9.1662699 | [Cartographie](https://www.openstreetmap.org/way/26297803) · [Accès](https://www.bonifacio-mairie.fr/ma-commune/parkings/) | P1 est au port, pas dans la Haute-Ville : prévoyez ensuite la montée à pied. |
+| Rondinara | Parking de Rondinara, accès par la D158, 20169 Bonifacio | 41.4673298, 9.2645952 | [Cartographie](https://www.openstreetmap.org/way/129407048) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-RONDINARA) | Fin du trajet au parking ; plage à rejoindre à pied. |
+| Piantarella & Petit Sperone | Stationnement de Piantarella, extrémité de la route de Piantarella, 20169 Bonifacio | 41.3768865, 9.2214138 | [Cartographie](https://www.openstreetmap.org/way/1082778377) · [Accès](https://bonifacio.fr/a-voir-a-faire/les-plus-belles-plages-de-bonifacio/plage-de-sperone/) | Rejoignez Petit Sperone à pied par le littoral. Ne pas entrer par le golf. |
+| Palombaggia | Parking d’accès nord à Palombaggia, 20137 Porto-Vecchio | 41.5615277, 9.3366538 | [Cartographie](https://www.openstreetmap.org/way/1067938335) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-PALOMBAGGIA-CALA-DI-LUNA) | Accès à la plage à pied depuis le parking ; les conditions de stationnement sont affichées sur place. |
+| Santa Giulia | Parking d’accès à la plage de Santa Giulia, 20137 Porto-Vecchio | 41.5323322, 9.2729844 | [Cartographie](https://www.openstreetmap.org/way/292096506) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-SANTA-GIULIA) | Le point d’arrivée est le parking, à proximité du rivage, et non le lagon. |
+| Pinarellu — plage & village marin | Parking de Pinareddu, 20144 Pinarello, Sainte-Lucie-de-Porto-Vecchio | 41.6832962, 9.3763589 | [Cartographie](https://www.openstreetmap.org/way/500769489) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Accessibilite/Tous-les-prestataires-accessibilites/PARKING-DE-PINAREDDU) | Arrivée au parking référencé par l’office de tourisme ; poursuivez à pied vers la plage et le village marin. |
+| L’Ospedale | Parking près du barrage de l’Ospedale, D368, 20137 Porto-Vecchio | 41.6680914, 9.2084659 | [Cartographie](https://www.openstreetmap.org/way/819862892) · [Accès](https://www.alta-rocca-tourisme.com/patrimoine-naturel/barrage-de-lospedale/) | Arrivée au parking près du barrage. Le village de l’Ospedale est une étape distincte. |
+| Zonza & aiguilles de Bavella | Parking de Bavella, col de Bavella (D268), 20122 Quenza | 41.7954648, 9.2240459 | [Cartographie](https://www.openstreetmap.org/way/61963036) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LES-AIGUILLES-DE-BAVELLA) | Le trajet chiffré mène au col ; un détour par le village de Zonza est à ajouter. |
+| Levie & Cucuruzzu | Parking des sites de Cucuruzzu et Capula, Pianu di Livia, 20170 Levie | 41.7171695, 9.1284093 | [Cartographie](https://www.openstreetmap.org/way/499366317) · [Accès](https://www.alta-rocca-tourisme.com/patrimoine-culturel/sites-archeologiques-de-cuccuruzzu-et-de-capula/) | Rejoignez l’accueil puis le circuit archéologique à pied ; les vestiges ne sont pas accessibles en voiture. |
+| Sartène | Parking Saint-Damien, 20100 Sartène | 41.6198412, 8.9697087 | [Cartographie](https://www.openstreetmap.org/way/828169082) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/SARTE-SARTENE) | Poursuivez à pied vers la place Porta et la vieille ville. |
+| Roccapina | Parking de la maison de site A Casa di Roccapina, col de Roccapina (T40), 20100 Sartène | 41.4984381, 8.9488834 | [Cartographie](https://www.openstreetmap.org/way/1064369069) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/A-CASA-DI-ROCCAPINA) | Arrivée à la maison de site ; la plage de Roccapina n’est pas incluse dans ce trajet. |
+| Îles Lavezzi | Parking P1 de la Marine, 20169 Bonifacio | 41.3891236, 9.1662699 | [Cartographie](https://www.openstreetmap.org/way/26297803) · [Accès](https://www.bonifacio-mairie.fr/ma-commune/parkings/) | Garez-vous au port puis rejoignez à pied l’embarquement indiqué par votre compagnie. Traversée en bateau à ajouter. |
+| Plateau du Coscione | Parking de Bucchinera, accès par Quenza, plateau du Coscione | 41.8233133, 9.1415655 | [Cartographie](https://www.openstreetmap.org/way/1076706874) · [Accès](https://tracesdaventure.fr/2026/07/16/monte-incudine-alcudina-par-le-plateau-du-cuscione/) | Route d’accès étroite et dégradée par endroits : vérifiez son état avant de monter. Continuez à pied depuis Bucchinera. |
+| Piscines naturelles du Cavu | Parking municipal du Cavu, San Martinu, 20144 Sainte-Lucie-de-Porto-Vecchio | 41.7218061, 9.2998182 | [Cartographie](https://www.openstreetmap.org/way/717575939) · [Accès](https://www.zonza-saintelucie.com/vallee-du-cavu-reouverture-partielle/) | Stationnez à l’entrée de la vallée, près du bureau d’information. Vérifiez sur place les accès autorisés et la navette vers les 3 Piscines. |
+| Ajaccio & îles Sanguinaires | Parking P1 de la Parata, route des Sanguinaires, 20000 Ajaccio | 41.9017486, 8.6180544 | [Cartographie](https://www.openstreetmap.org/way/637602310) · [Accès](https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/) | Le trajet mène à la Parata. Le centre d’Ajaccio et toute traversée vers les îles sont des étapes distinctes. |
+| Étang d’Urbino | Parking près du restaurant d’Urbino, Strada d’Urbinu, 20240 Ghisonaccia | 42.0538831, 9.4677923 | [Cartographie](https://www.openstreetmap.org/way/729373284) · [Accès](https://www.corseorientale.com/A-voir-A-faire/Art-de-vivre/Restaurants/FERME-D-URBINU) | Accès par la rive près du restaurant, pas par le centre de l’étang. Respectez les accès privés et les consignes sur place. |
+| Corte & vallée de la Restonica | Parking Xavier Luciani, 20250 Corte | 42.3057569, 9.1514768 | [Cartographie](https://www.openstreetmap.org/way/655479807) · [Accès](https://tourisme-centrecorse.corsica/la-vallee-de-la-restonica-2/) | Visitez Corte à pied. La Restonica n’est pas incluse : renseignez-vous à l’office de tourisme sur les accès et navettes du jour. |
+| Cap Corse | Parking du port de Macinaggio, 20247 Rogliano | 42.9595476, 9.4533017 | [Cartographie](https://www.openstreetmap.org/way/1055313211) · [Accès](https://www.capcorse-tourisme.corsica/cap-corse-que-faire-les-incontournables/) | Arrivée à Macinaggio uniquement ; le tour du Cap Corse n’est pas inclus. |
+| Nonza | Stationnement visiteurs en bord de D80, 20217 Nonza | 42.784378, 9.3447361 | [Cartographie](https://www.openstreetmap.org/way/1067095116) · [Accès](https://destination-cap-corse.corsica/nonza/) | Rejoignez le village et la tour à pied. Le parking voisin réservé aux résidents n’est pas celui retenu. |
+| Saint-Florent & désert des Agriates | Parking du centre près du port, 20217 Saint-Florent | 42.6798997, 9.3017448 | [Cartographie](https://www.openstreetmap.org/way/300236666) · [Accès](https://www.corsica-saintflorent.com/lagriate/) | Rejoignez à pied le quai indiqué par votre compagnie ; la traversée vers les Agriates est à ajouter. |
+| Calanques de Piana & Scandola | Parking de la Marine de Porto, 20150 Ota | 42.2681165, 8.6938336 | [Cartographie](https://www.openstreetmap.org/way/297999717) · [Accès](https://www.ouestcorsica.com/les-incontournables/les-calanques-de-piana-site-unesco/) | Rejoignez l’embarquement à pied. Croisière vers Scandola et visite de Piana par la route non incluses. |
+| Capo Rosso | Parking du Capo Rosso, route d’Arone (D824), 20115 Piana | 42.23524, 8.5835494 | [Cartographie](https://www.openstreetmap.org/way/130449369) · [Accès](https://www.ouestcorsica.com/itineraires/tour-genoise-de-capo-rosso/) | Départ de randonnée au parking ; la tour se rejoint à pied, pas en voiture. |
+| Cargèse | Parking Place Chanoine Mattéi, 20130 Cargèse | 42.1337586, 8.5967676 | [Cartographie](https://www.openstreetmap.org/way/364701925) · [Accès](https://www.ouestcorsica.com/a-voir-a-faire/les-villages/cargese/) | Les deux églises se visitent ensuite à pied depuis le village. |
+| Cascade des Anglais | Parking de la gare de Vizzavona, D523, 20219 Vivario | 42.1282867, 9.1337106 | [Cartographie](https://www.openstreetmap.org/way/446652269) · [Accès](https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS) | Départ à pied depuis la gare ; les cascades ne sont pas le point d’arrivée en voiture. |
+| Saint-Cyprien — plage & baie | Parking Piazza di a Marina, Saint-Cyprien, 20137 Lecci | 41.6334304, 9.3451192 | [Cartographie](https://www.openstreetmap.org/way/224876368) · [Accès](https://www.cirkwi.com/fr/point-interet/1749873-la-plage-de-saint-cyprien) | Accès à la plage à pied depuis la place ; le repère routier est sur terre, près du village. |
+| Porto-Vecchio — vieille ville & port | Parking Centre Ville P0, 20137 Porto-Vecchio | 41.5928216, 9.2797701 | [Cartographie](https://www.openstreetmap.org/way/758454795) · [Accès](https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Offres-art-et-culture/Visite-guidee-de-la-citadelle-de-Porto-Vecchio-avec-l-Office-de-tourisme) | Rejoignez la citadelle à pied ; la descente vers le port est une promenade supplémentaire. |
