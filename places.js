@@ -8,8 +8,6 @@ const P = [
     "lat": 42.5684,
     "lng": 8.7607,
     "route": "Citadelle de Calvi, 20260 Calvi",
-    "drive_fr": "Base Calvi",
-    "drive_es": "Base Calvi",
     "when_fr": "Fin d’après-midi",
     "when_es": "Final de la tarde",
     "effort_fr": "Facile · pavés et escaliers",
@@ -20,7 +18,7 @@ const P = [
     "advice_es": "Ciudadela al final de la tarde → Notre-Dame-de-la-Serra al atardecer.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LA-CITADELLE-DE-CALVI",
     "photo_url": "assets/photos/calvi.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Citadelle%20de%20Calvi%2C%2020260%20Calvi&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.5684%2C8.7607&travelmode=driving",
     "photo_original": "https://balagne-corsica.com/content/uploads/2018/06/CALVI_CITADELLE_1-1170x575.jpg",
     "photo_width": 1170,
     "photo_height": 575,
@@ -29,7 +27,25 @@ const P = [
     "duration_fr": "2–4 h",
     "duration_es": "2–4 h",
     "name_es": "Calvi y su ciudadela",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.5684,
+    "route_lng": 8.7607,
+    "routes": {
+      "calvi": {
+        "km": 7,
+        "minutes": 15,
+        "meters": 6621,
+        "seconds": 636.9
+      },
+      "pv": {
+        "km": 183,
+        "minutes": 190,
+        "meters": 183327.8,
+        "seconds": 11332.9
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "balagne",
@@ -40,8 +56,6 @@ const P = [
     "lat": 42.5893,
     "lng": 8.9052,
     "route": "Parking Sant'Antonino, 20220 Sant'Antonino",
-    "drive_fr": "20–40 min",
-    "drive_es": "20–40 min",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile · ruelles en pente",
@@ -52,7 +66,7 @@ const P = [
     "advice_es": "Pigna → Sant’Antonino → Corbara → playa de Algajola o Bodri.",
     "info": "https://balagne-corsica.com/decouvrir-la-balagne/villages-arriere-pays/sant-antonino/",
     "photo_url": "assets/photos/balagne.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Sant%27Antonino%2C%2020220%20Sant%27Antonino&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.5893%2C8.9052&travelmode=driving",
     "photo_original": "https://www.reisroutes.be/userfiles/fotos/sant-39-antonino-corsica_8732_xl.jpg",
     "photo_width": 1200,
     "photo_height": 789,
@@ -61,7 +75,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "Pigna · Sant’Antonino · Corbara",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.5893,
+    "route_lng": 8.9052,
+    "routes": {
+      "calvi": {
+        "km": 19,
+        "minutes": 25,
+        "meters": 18967.6,
+        "seconds": 1440.3
+      },
+      "pv": {
+        "km": 173,
+        "minutes": 180,
+        "meters": 173012.5,
+        "seconds": 10603.2
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "occi",
@@ -72,8 +104,6 @@ const P = [
     "lat": 42.579,
     "lng": 8.831,
     "route": "Lumio, Haute-Corse",
-    "drive_fr": "20 min",
-    "drive_es": "20 min",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Modéré",
@@ -84,7 +114,7 @@ const P = [
     "advice_es": "Occi por la mañana → cala o playa cerca de Lumio.",
     "info": "https://balagne-corsica.com/patrimoine-culturel/village-abandonne-docci/",
     "photo_url": "assets/photos/occi.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Lumio%2C%20Haute-Corse&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.579%2C8.831&travelmode=driving",
     "photo_original": "https://balagne-corsica.com/content/uploads/apidae/2018/07/3953016-770x513.jpg",
     "photo_width": 770,
     "photo_height": 513,
@@ -93,7 +123,25 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "Lumio y Occi",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.579,
+    "route_lng": 8.831,
+    "routes": {
+      "calvi": {
+        "km": 8,
+        "minutes": 10,
+        "meters": 7759.7,
+        "seconds": 578.1
+      },
+      "pv": {
+        "km": 173,
+        "minutes": 175,
+        "meters": 172653.7,
+        "seconds": 10435.1
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "bodri",
@@ -101,11 +149,9 @@ const P = [
     "zone": "calvi",
     "type": "beach",
     "emoji": "🏖️",
-    "lat": 42.635,
-    "lng": 8.907,
+    "lat": 42.629987,
+    "lng": 8.9142542,
     "route": "Parking plage de Bodri, Corbara",
-    "drive_fr": "35 min",
-    "drive_es": "35 min",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Facile · marche depuis le parking",
@@ -116,7 +162,7 @@ const P = [
     "advice_es": "L’Île-Rousse por la mañana → Bodri por la tarde.",
     "info": "https://balagne-corsica.com/decouvrir-la-balagne/mer-et-plages/bodri-et-ghjunchitu/",
     "photo_url": "assets/photos/bodri.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Bodri%2C%20Corbara&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.6276007%2C8.9131001&travelmode=driving",
     "photo_original": "https://balagne-corsica.com/content/uploads/2018/08/Bodri.jpg",
     "photo_width": 1200,
     "photo_height": 900,
@@ -125,7 +171,25 @@ const P = [
     "duration_fr": "2–4 h",
     "duration_es": "2–4 h",
     "name_es": "Playa de Bodri",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.6276007,
+    "route_lng": 8.9131001,
+    "routes": {
+      "calvi": {
+        "km": 19,
+        "minutes": 25,
+        "meters": 19464,
+        "seconds": 1491.5
+      },
+      "pv": {
+        "km": 162,
+        "minutes": 165,
+        "meters": 162059.2,
+        "seconds": 9877
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "algajola",
@@ -136,8 +200,6 @@ const P = [
     "lat": 42.608,
     "lng": 8.861,
     "route": "Plage d'Algajola, 20220 Algajola",
-    "drive_fr": "25 min",
-    "drive_es": "25 min",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Très facile",
@@ -148,7 +210,7 @@ const P = [
     "advice_es": "Pueblos en lo alto por la mañana → Algajola después de almorzar.",
     "info": "https://www.balagne-corsica.com/algajola/",
     "photo_url": "assets/photos/algajola.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20d%27Algajola%2C%2020220%20Algajola&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.608%2C8.861&travelmode=driving",
     "photo_original": "https://www.la-corse-autrement.com/wp-content/uploads/2019/04/aregno2.jpeg",
     "photo_width": 1000,
     "photo_height": 1000,
@@ -157,7 +219,25 @@ const P = [
     "duration_fr": "2–4 h",
     "duration_es": "2–4 h",
     "name_es": "Algajola y Aregno",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.608,
+    "route_lng": 8.861,
+    "routes": {
+      "calvi": {
+        "km": 14,
+        "minutes": 20,
+        "meters": 13559.2,
+        "seconds": 1025.5
+      },
+      "pv": {
+        "km": 167,
+        "minutes": 170,
+        "meters": 167064.9,
+        "seconds": 10108.5
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "revellata",
@@ -167,9 +247,7 @@ const P = [
     "emoji": "🌿",
     "lat": 42.572,
     "lng": 8.724,
-    "route": "Presqu'île de la Revellata, Calvi",
-    "drive_fr": "10 min",
-    "drive_es": "10 min",
+    "route": "Parking de la Revellata, route de Porto, Calvi",
     "when_fr": "Matin ou fin de journée",
     "when_es": "Mañana o final de la tarde",
     "effort_fr": "Modéré",
@@ -180,7 +258,7 @@ const P = [
     "advice_es": "Paseo corto → baño si las condiciones acompañan.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LA-REVELLATA",
     "photo_url": "assets/photos/revellata.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Presqu%27%C3%AEle%20de%20la%20Revellata%2C%20Calvi&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.5515%2C8.736&travelmode=driving",
     "photo_original": "https://corse.media.tourinsoft.eu/upload/3953870.jpg",
     "photo_width": 1200,
     "photo_height": 675,
@@ -189,7 +267,25 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "La Revellata",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.5515,
+    "route_lng": 8.736,
+    "routes": {
+      "calvi": {
+        "km": 10,
+        "minutes": 20,
+        "meters": 10232.8,
+        "seconds": 1015.6
+      },
+      "pv": {
+        "km": 187,
+        "minutes": 200,
+        "meters": 186939.6,
+        "seconds": 11711.6
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "asco",
@@ -200,8 +296,6 @@ const P = [
     "lat": 42.454,
     "lng": 9.034,
     "route": "Pont Génois d'Asco, Asco",
-    "drive_fr": "≈ 1 h 15",
-    "drive_es": "≈ 1 h 15",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile",
@@ -212,7 +306,7 @@ const P = [
     "advice_es": "Puente genovés → recorrer el valle tranquilamente → almuerzo.",
     "info": "https://fr.wikipedia.org/wiki/Asco",
     "photo_url": "assets/photos/asco.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20G%C3%A9nois%20d%27Asco%2C%20Asco&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.454%2C9.034&travelmode=driving",
     "photo_original": "https://commons.wikimedia.org/wiki/Special:FilePath/Asco_en_amont_du_pont_g%C3%A9nois.jpg?width=1400",
     "photo_width": 1200,
     "photo_height": 801,
@@ -223,7 +317,25 @@ const P = [
     "name_es": "Valle de Asco y puente genovés",
     "photo_small_width": 640,
     "photo_license": "CC BY-SA 3.0",
-    "photo_license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    "photo_license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "route_lat": 42.454,
+    "route_lng": 9.034,
+    "routes": {
+      "calvi": {
+        "km": 77,
+        "minutes": 85,
+        "meters": 76874.9,
+        "seconds": 4984.4
+      },
+      "pv": {
+        "km": 138,
+        "minutes": 140,
+        "meters": 137880.3,
+        "seconds": 8396.4
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "ilerousse",
@@ -234,8 +346,6 @@ const P = [
     "lat": 42.635,
     "lng": 8.938,
     "route": "Place Paoli, L'Île-Rousse",
-    "drive_fr": "30 min",
-    "drive_es": "30 min",
     "when_fr": "Matin / fin de journée",
     "when_es": "Mañana / final de la tarde",
     "effort_fr": "Très facile",
@@ -246,7 +356,7 @@ const P = [
     "advice_es": "Mercado y centro → Bodri para bañarse.",
     "info": "https://balagne-corsica.com/decouvrir-la-balagne/ile-rousse/",
     "photo_url": "assets/photos/ilerousse.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Paoli%2C%20L%27%C3%8Ele-Rousse&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.635%2C8.938&travelmode=driving",
     "photo_original": "https://balagne-corsica.com/content/uploads/2018/08/LIle-Rousse-01@Tonio-Bassani-28-1.jpg",
     "photo_width": 1200,
     "photo_height": 595,
@@ -255,7 +365,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "L’Île-Rousse y sus playas",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.635,
+    "route_lng": 8.938,
+    "routes": {
+      "calvi": {
+        "km": 22,
+        "minutes": 30,
+        "meters": 21719.2,
+        "seconds": 1629.8
+      },
+      "pv": {
+        "km": 159,
+        "minutes": 160,
+        "meters": 159004.8,
+        "seconds": 9469.2
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "fango",
@@ -263,11 +391,9 @@ const P = [
     "zone": "calvi",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.403,
-    "lng": 8.66,
+    "lat": 42.3866361,
+    "lng": 8.7466381,
     "route": "Pont de Tuarelli, Manso",
-    "drive_fr": "≈ 1 h",
-    "drive_es": "≈ 1 h",
     "when_fr": "Journée",
     "when_es": "Día",
     "effort_fr": "Facile",
@@ -278,7 +404,7 @@ const P = [
     "advice_es": "Paseo corto + río; revisar caudal y tiempo antes de bañarse.",
     "info": "https://balagne-corsica.com/decouvrir-la-balagne/nos-espaces-preserves/vallee-du-fango/",
     "photo_url": "assets/photos/fango.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20de%20Tuarelli%2C%20Manso&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.3866361%2C8.7466381&travelmode=driving",
     "photo_original": "https://balagne-corsica.com/content/uploads/2018/07/le-fango-@olivier-gomez.jpg",
     "photo_width": 1200,
     "photo_height": 800,
@@ -287,7 +413,25 @@ const P = [
     "duration_fr": "½–1 journée",
     "duration_es": "Medio día–1 día",
     "name_es": "Valle del Fango",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.3866361,
+    "route_lng": 8.7466381,
+    "routes": {
+      "calvi": {
+        "km": 30,
+        "minutes": 40,
+        "meters": 29665.8,
+        "seconds": 2102.5
+      },
+      "pv": {
+        "km": 209,
+        "minutes": 220,
+        "meters": 209254.3,
+        "seconds": 12986.7
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "bonifacio",
@@ -298,8 +442,6 @@ const P = [
     "lat": 41.387,
     "lng": 9.159,
     "route": "Parking P1, Bonifacio",
-    "drive_fr": "35 min",
-    "drive_es": "35 min",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile / modéré",
@@ -310,7 +452,7 @@ const P = [
     "advice_es": "Llegar temprano → Haute-Ville → almuerzo → Rondinara o Petit Sperone.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LES-RUELLES-DE-BONIFACIO",
     "photo_url": "assets/photos/bonifacio.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20P1%2C%20Bonifacio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.387%2C9.159&travelmode=driving",
     "photo_original": "https://woody.cloudly.space/app/uploads/bonifacio/2024/01/thumbs/citadelle-goulet-falaises-nature-vue-aerienne-bonifacio-1920x1080.webp",
     "photo_width": 1200,
     "photo_height": 675,
@@ -319,7 +461,25 @@ const P = [
     "duration_fr": "4–5 h",
     "duration_es": "4–5 h",
     "name_es": "Bonifacio",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.387,
+    "route_lng": 9.159,
+    "routes": {
+      "calvi": {
+        "km": 228,
+        "minutes": 245,
+        "meters": 228052.8,
+        "seconds": 14433.6
+      },
+      "pv": {
+        "km": 48,
+        "minutes": 60,
+        "meters": 47583.8,
+        "seconds": 3397.9
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "rondinara",
@@ -330,8 +490,6 @@ const P = [
     "lat": 41.467,
     "lng": 9.269,
     "route": "Parking plage de Rondinara, Bonifacio",
-    "drive_fr": "30–35 min",
-    "drive_es": "30–35 min",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Très facile",
@@ -342,7 +500,7 @@ const P = [
     "advice_es": "Bonifacio por la mañana → Rondinara desde las 15 h.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-RONDINARA",
     "photo_url": "assets/photos/rondinara.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Rondinara%2C%20Bonifacio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.4672526%2C9.2644838&travelmode=driving",
     "photo_original": "https://www.corsicatours.com/sites/default/files/styles/ogimage/public/2021-06/plage%20rondinara%20corse.jpg?itok=utL97oPH",
     "photo_width": 1200,
     "photo_height": 800,
@@ -351,7 +509,25 @@ const P = [
     "duration_fr": "2–4 h",
     "duration_es": "2–4 h",
     "name_es": "Rondinara",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.4672526,
+    "route_lng": 9.2644838,
+    "routes": {
+      "calvi": {
+        "km": 221,
+        "minutes": 240,
+        "meters": 220975.3,
+        "seconds": 14289.5
+      },
+      "pv": {
+        "km": 41,
+        "minutes": 55,
+        "meters": 40506.3,
+        "seconds": 3253.8
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "sperone",
@@ -359,11 +535,9 @@ const P = [
     "zone": "pv",
     "type": "beach",
     "emoji": "🏖️",
-    "lat": 41.369,
-    "lng": 9.226,
+    "lat": 41.3744927,
+    "lng": 9.2180008,
     "route": "Parking de Piantarella, Bonifacio",
-    "drive_fr": "40 min",
-    "drive_es": "40 min",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Modéré",
@@ -374,7 +548,7 @@ const P = [
     "advice_es": "Desde Piantarella, lleguen a Petit Sperone a pie por la costa. Lleven buen calzado y usen los accesos autorizados.",
     "info": "https://bonifacio.fr/a-voir-a-faire/les-plus-belles-plages-de-bonifacio/plage-de-sperone/",
     "photo_url": "assets/photos/sperone.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Piantarella%2C%20Bonifacio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.3744927%2C9.2180008&travelmode=driving",
     "photo_original": "https://woody.cloudly.space/app/uploads/bonifacio/2024/03/thumbs/Petit-Sperone-face-a-Piana-vue-du-ciel-Bonifacio-OMTB-Robert-Palomba-1920x960.webp",
     "photo_width": 1200,
     "photo_height": 600,
@@ -383,7 +557,25 @@ const P = [
     "duration_fr": "3–4 h",
     "duration_es": "3–4 h",
     "name_es": "Piantarella y Petit Sperone",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.3744927,
+    "route_lng": 9.2180008,
+    "routes": {
+      "calvi": {
+        "km": 232,
+        "minutes": 250,
+        "meters": 232462.9,
+        "seconds": 14801.5
+      },
+      "pv": {
+        "km": 52,
+        "minutes": 65,
+        "meters": 51993.9,
+        "seconds": 3765.8
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "palombaggia",
@@ -393,9 +585,7 @@ const P = [
     "emoji": "🏖️",
     "lat": 41.557,
     "lng": 9.336,
-    "route": "Plage de Palombaggia, Porto-Vecchio",
-    "drive_fr": "20 min",
-    "drive_es": "20 min",
+    "route": "Parking de la plage de Palombaggia, Porto-Vecchio",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Très facile",
@@ -406,7 +596,7 @@ const P = [
     "advice_es": "L’Ospedale por la mañana → Palombaggia después de almorzar.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-PALOMBAGGIA-CALA-DI-LUNA",
     "photo_url": "assets/photos/palombaggia.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Palombaggia%2C%20Porto-Vecchio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.5638492%2C9.3357825&travelmode=driving",
     "photo_original": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Palombaggia%20Beach%2C%20Corsica%2C%20France%20%2852724214180%29.jpg?width=1400",
     "photo_width": 1200,
     "photo_height": 799,
@@ -417,7 +607,25 @@ const P = [
     "name_es": "Palombaggia",
     "photo_small_width": 640,
     "photo_license": "CC BY 2.0",
-    "photo_license_url": "https://creativecommons.org/licenses/by/2.0/"
+    "photo_license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "route_lat": 41.5638492,
+    "route_lng": 9.3357825,
+    "routes": {
+      "calvi": {
+        "km": 213,
+        "minutes": 225,
+        "meters": 213143.7,
+        "seconds": 13421.9
+      },
+      "pv": {
+        "km": 33,
+        "minutes": 40,
+        "meters": 32674.7,
+        "seconds": 2386.2
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "santagiulia",
@@ -428,8 +636,6 @@ const P = [
     "lat": 41.53,
     "lng": 9.273,
     "route": "Plage de Santa Giulia, Porto-Vecchio",
-    "drive_fr": "20 min",
-    "drive_es": "20 min",
     "when_fr": "Midi / après-midi",
     "when_es": "Mediodía / tarde",
     "effort_fr": "Très facile",
@@ -440,7 +646,7 @@ const P = [
     "advice_es": "Sin programa complicado: almuerzo y playa.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-SANTA-GIULIA",
     "photo_url": "assets/photos/santagiulia.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Santa%20Giulia%2C%20Porto-Vecchio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.53%2C9.273&travelmode=driving",
     "photo_original": "https://www.reisroutes.be/userfiles/fotos/plage-de-santa-giulia_912_xl.jpg",
     "photo_width": 1200,
     "photo_height": 899,
@@ -449,7 +655,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "Santa Giulia",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.53,
+    "route_lng": 9.273,
+    "routes": {
+      "calvi": {
+        "km": 208,
+        "minutes": 220,
+        "meters": 208012.1,
+        "seconds": 13191.9
+      },
+      "pv": {
+        "km": 28,
+        "minutes": 40,
+        "meters": 27543.1,
+        "seconds": 2156.2
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "pinarellu",
@@ -460,8 +684,6 @@ const P = [
     "lat": 41.6927,
     "lng": 9.3897,
     "route": "Plage de Pinarello, 20144 Sainte-Lucie-de-Porto-Vecchio",
-    "drive_fr": "≈ 25 min",
-    "drive_es": "≈ 25 min",
     "when_fr": "Déjeuner / après-midi",
     "when_es": "Almuerzo / tarde",
     "effort_fr": "Très facile",
@@ -472,7 +694,7 @@ const P = [
     "advice_es": "Almuerzo en el pueblo marinero → paseo por la bahía → 2–3 h de playa bajo los pinos. No hace falta prever la travesía hasta la torre.",
     "info": "https://www.zonza-saintelucie.com/incontournables/nos-plages/la-plage-de-pinarello/",
     "photo_url": "assets/photos/pinarellu.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Pinarello%2C%2020144%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.6927%2C9.3897&travelmode=driving",
     "photo_original": "https://www.journee-mondiale.com/medias/files/Pinarellu.jpg",
     "photo_width": 1200,
     "photo_height": 683,
@@ -481,7 +703,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "Pinarellu · playa y pueblo costero",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.6927,
+    "route_lng": 9.3897,
+    "routes": {
+      "calvi": {
+        "km": 190,
+        "minutes": 200,
+        "meters": 189533.3,
+        "seconds": 11835.2
+      },
+      "pv": {
+        "km": 9,
+        "minutes": 15,
+        "meters": 9064.3,
+        "seconds": 799.5
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "ospedale",
@@ -489,11 +729,9 @@ const P = [
     "zone": "pv",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 41.651,
-    "lng": 9.208,
+    "lat": 41.6684947,
+    "lng": 9.2074426,
     "route": "Barrage de l'Ospedale, Porto-Vecchio",
-    "drive_fr": "30 min",
-    "drive_es": "30 min",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile",
@@ -504,7 +742,7 @@ const P = [
     "advice_es": "Paseo tranquilo por la mañana → Palombaggia por la tarde.",
     "info": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/barrage-de-lospedale/",
     "photo_url": "assets/photos/ospedale.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Barrage%20de%20l%27Ospedale%2C%20Porto-Vecchio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.6684947%2C9.2074426&travelmode=driving",
     "photo_original": "https://www.corsenetinfos.corsica/photo/art/grande/81868320-58886035.jpg?v=1722317777",
     "photo_width": 1200,
     "photo_height": 710,
@@ -513,7 +751,25 @@ const P = [
     "duration_fr": "2–4 h",
     "duration_es": "2–4 h",
     "name_es": "L’Ospedale",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.6684947,
+    "route_lng": 9.2074426,
+    "routes": {
+      "calvi": {
+        "km": 217,
+        "minutes": 225,
+        "meters": 216532.8,
+        "seconds": 13326.8
+      },
+      "pv": {
+        "km": 34,
+        "minutes": 45,
+        "meters": 34117.8,
+        "seconds": 2544.7
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "zonza",
@@ -521,11 +777,9 @@ const P = [
     "zone": "pv",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 41.749,
-    "lng": 9.171,
+    "lat": 41.7958688,
+    "lng": 9.2249566,
     "route": "Col de Bavella, Quenza",
-    "drive_fr": "1 h–1 h 15",
-    "drive_es": "1 h–1 h 15",
     "when_fr": "Toute la journée",
     "when_es": "Todo el día",
     "effort_fr": "Facile / modéré",
@@ -536,7 +790,7 @@ const P = [
     "advice_es": "Zonza → almuerzo → Col de Bavella → paseos cortos y panoramas.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LES-AIGUILLES-DE-BAVELLA",
     "photo_url": "assets/photos/zonza.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Col%20de%20Bavella%2C%20Quenza&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.7958688%2C9.2249566&travelmode=driving",
     "photo_original": "https://corse.media.tourinsoft.eu/upload/IMG-4020-2.jpg",
     "photo_width": 1024,
     "photo_height": 683,
@@ -545,7 +799,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Zonza y las agujas de Bavella",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.7958688,
+    "route_lng": 9.2249566,
+    "routes": {
+      "calvi": {
+        "km": 191,
+        "minutes": 200,
+        "meters": 190625.7,
+        "seconds": 11726
+      },
+      "pv": {
+        "km": 49,
+        "minutes": 55,
+        "meters": 49154.5,
+        "seconds": 3247.8
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "levie",
@@ -553,11 +825,9 @@ const P = [
     "zone": "pv",
     "type": "culture",
     "emoji": "🏛️",
-    "lat": 41.703,
-    "lng": 9.124,
+    "lat": 41.7182637,
+    "lng": 9.1286686,
     "route": "Site archéologique de Cucuruzzu, Levie",
-    "drive_fr": "1 h 15",
-    "drive_es": "1 h 15",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Modéré",
@@ -568,7 +838,7 @@ const P = [
     "advice_es": "Cucuruzzu por la mañana → almuerzo en Levie o Zonza.",
     "info": "https://www.alta-rocca-tourisme.com/patrimoine-culturel/sites-archeologiques-de-cuccuruzzu-et-de-capula/",
     "photo_url": "assets/photos/levie.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Site%20arch%C3%A9ologique%20de%20Cucuruzzu%2C%20Levie&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.7182637%2C9.1286686&travelmode=driving",
     "photo_original": "https://rando.isula.corsica/photo/art/default/10340327-16912808.jpg?v=1479372665",
     "photo_width": 993,
     "photo_height": 1000,
@@ -577,7 +847,25 @@ const P = [
     "duration_fr": "½–1 journée",
     "duration_es": "Medio día–1 día",
     "name_es": "Levie y Cucuruzzu",
-    "photo_small_width": 636
+    "photo_small_width": 636,
+    "route_lat": 41.7182637,
+    "route_lng": 9.1286686,
+    "routes": {
+      "calvi": {
+        "km": 216,
+        "minutes": 230,
+        "meters": 215870,
+        "seconds": 13681.7
+      },
+      "pv": {
+        "km": 63,
+        "minutes": 85,
+        "meters": 62817.8,
+        "seconds": 4828.7
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "sartene",
@@ -588,8 +876,6 @@ const P = [
     "lat": 41.621,
     "lng": 8.974,
     "route": "Place Porta, Sartène",
-    "drive_fr": "1 h 15",
-    "drive_es": "1 h 15",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile",
@@ -600,7 +886,7 @@ const P = [
     "advice_es": "Sartène por la mañana → Roccapina después de almorzar.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/SARTE-SARTENE",
     "photo_url": "assets/photos/sartene.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Porta%2C%20Sart%C3%A8ne&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.621%2C8.974&travelmode=driving",
     "photo_original": "https://cdn.world-discovery.com/24969/old-town-landscape-sartene-corsica-scaled-3.webp",
     "photo_width": 1200,
     "photo_height": 800,
@@ -609,7 +895,25 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "Sartène",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.621,
+    "route_lng": 8.974,
+    "routes": {
+      "calvi": {
+        "km": 228,
+        "minutes": 225,
+        "meters": 228402.4,
+        "seconds": 13370.2
+      },
+      "pv": {
+        "km": 81,
+        "minutes": 90,
+        "meters": 80677.9,
+        "seconds": 5188.8
+      }
+    },
+    "stay": "pv",
+    "long_trip": true
   },
   {
     "id": "roccapina",
@@ -617,11 +921,9 @@ const P = [
     "zone": "pv",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 41.495,
-    "lng": 8.949,
+    "lat": 41.4987648,
+    "lng": 8.948832,
     "route": "A Casa di Roccapina, Sartène",
-    "drive_fr": "1 h 20",
-    "drive_es": "1 h 20",
     "when_fr": "Après-midi",
     "when_es": "Tarde",
     "effort_fr": "Facile / modéré",
@@ -632,7 +934,7 @@ const P = [
     "advice_es": "Sartène → A Casa di Roccapina → playa sólo si el acceso está bien ese día.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/A-CASA-DI-ROCCAPINA",
     "photo_url": "assets/photos/roccapina.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=A%20Casa%20di%20Roccapina%2C%20Sart%C3%A8ne&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.4987648%2C8.948832&travelmode=driving",
     "photo_original": "https://corse.media.tourinsoft.eu/upload/acasadiroccapina.png",
     "photo_width": 1062,
     "photo_height": 763,
@@ -641,7 +943,25 @@ const P = [
     "duration_fr": "3–4 h",
     "duration_es": "3–4 h",
     "name_es": "Roccapina",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.4987648,
+    "route_lng": 8.948832,
+    "routes": {
+      "calvi": {
+        "km": 248,
+        "minutes": 240,
+        "meters": 247920.4,
+        "seconds": 14395.9
+      },
+      "pv": {
+        "km": 59,
+        "minutes": 70,
+        "meters": 58754.1,
+        "seconds": 3925.7
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "lavezzi",
@@ -652,8 +972,6 @@ const P = [
     "lat": 41.333,
     "lng": 9.255,
     "route": "Port de Bonifacio, Bonifacio",
-    "drive_fr": "35 min jusqu’au port + bateau",
-    "drive_es": "35 min hasta el puerto + barco",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile",
@@ -664,7 +982,7 @@ const P = [
     "advice_es": "Reservar sólo si el tiempo en el mar es favorable.",
     "info": "https://bonifacio.fr/decouvrir/bonifacio-grandeur-nature/larchipel-des-iles-lavezzi/",
     "photo_url": "assets/photos/lavezzi.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Bonifacio%2C%20Bonifacio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.3884728%2C9.1611356&travelmode=driving",
     "photo_original": "https://woody.cloudly.space/app/uploads/bonifacio/2023/11/thumbs/archipel-iles-lavezzi-vue-aerienne-bonifacio-1920x960.jpg",
     "photo_width": 1200,
     "photo_height": 600,
@@ -673,7 +991,25 @@ const P = [
     "duration_fr": "½–1 journée",
     "duration_es": "Medio día–1 día",
     "name_es": "Islas Lavezzi",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.3884728,
+    "route_lng": 9.1611356,
+    "routes": {
+      "calvi": {
+        "km": 228,
+        "minutes": 245,
+        "meters": 227984.5,
+        "seconds": 14400.3
+      },
+      "pv": {
+        "km": 48,
+        "minutes": 60,
+        "meters": 47515.5,
+        "seconds": 3364.6
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "pozzi",
@@ -681,11 +1017,9 @@ const P = [
     "zone": "pv",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 41.837,
-    "lng": 9.151,
+    "lat": 41.8235311,
+    "lng": 9.1418579,
     "route": "Parking de Bucchinera, Quenza",
-    "drive_fr": "Long trajet depuis Porto-Vecchio",
-    "drive_es": "Viaje largo desde Porto-Vecchio",
     "when_fr": "Journée",
     "when_es": "Todo el día",
     "effort_fr": "Modéré",
@@ -696,7 +1030,7 @@ const P = [
     "advice_es": "Elijan un circuito adecuado para el grupo. Consulten el acceso desde Quenza, lleven abrigo y sigan los senderos sin pisar los humedales.",
     "info": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/plateau-du-cuscionu/",
     "photo_url": "assets/photos/pozzi.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Bucchinera%2C%20Quenza&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.8235311%2C9.1418579&travelmode=driving",
     "photo_original": "https://www.alta-rocca-tourisme.com/wp-content/uploads/2025/10/PNACOR000V504ARA-plateau_du_cuscionu_3-3.jpg",
     "photo_width": 1024,
     "photo_height": 684,
@@ -705,7 +1039,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Meseta del Coscione",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.8235311,
+    "route_lng": 9.1418579,
+    "routes": {
+      "calvi": {
+        "km": 210,
+        "minutes": 240,
+        "meters": 209593,
+        "seconds": 14225.2
+      },
+      "pv": {
+        "km": 70,
+        "minutes": 100,
+        "meters": 69954.2,
+        "seconds": 5800
+      }
+    },
+    "stay": "pv",
+    "long_trip": true
   },
   {
     "id": "cavu",
@@ -716,8 +1068,6 @@ const P = [
     "lat": 41.702,
     "lng": 9.33,
     "route": "Bureau d'Information Touristique du Cavu, Sainte-Lucie-de-Porto-Vecchio",
-    "drive_fr": "≈ 35–45 min",
-    "drive_es": "≈ 35–45 min",
     "when_fr": "Milieu de journée",
     "when_es": "Mediodía",
     "effort_fr": "Facile",
@@ -728,7 +1078,7 @@ const P = [
     "advice_es": "Consulten los accesos y las condiciones para bañarse en el punto de información. Después de lluvias fuertes, elijan pasear y manténganse lejos del agua.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Organismes/Tous-les-organismes/BUREAU-D-INFORMATION-TOURISTIQUE-DU-CAVU",
     "photo_url": "assets/photos/cavu.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Bureau%20d%27Information%20Touristique%20du%20Cavu%2C%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.702%2C9.33&travelmode=driving",
     "photo_original": "https://media.decathlon-outdoor.com/1cxTvpWnMAjuRFB6ASi66G/boucle-du-pont-de-marion-dans-la-vallee-du-cavu.jpg",
     "photo_width": 1200,
     "photo_height": 800,
@@ -737,7 +1087,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "Pozas naturales del Cavu",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.702,
+    "route_lng": 9.33,
+    "routes": {
+      "calvi": {
+        "km": 187,
+        "minutes": 195,
+        "meters": 187078.5,
+        "seconds": 11687.7
+      },
+      "pv": {
+        "km": 7,
+        "minutes": 15,
+        "meters": 6609.5,
+        "seconds": 652
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "ajaccio",
@@ -747,9 +1115,7 @@ const P = [
     "emoji": "🏛️",
     "lat": 41.919,
     "lng": 8.738,
-    "route": "Pointe de la Parata, Ajaccio",
-    "drive_fr": "Très long trajet depuis Calvi",
-    "drive_es": "Viaje muy largo desde Calvi",
+    "route": "Parking de la Parata, Ajaccio",
     "when_fr": "Fin de journée",
     "when_es": "Final de la tarde",
     "effort_fr": "Facile",
@@ -760,7 +1126,7 @@ const P = [
     "advice_es": "Guardarla como excursión grande, no como salida improvisada.",
     "info": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/",
     "photo_url": "assets/photos/ajaccio.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Pointe%20de%20la%20Parata%2C%20Ajaccio&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.9068%2C8.6222&travelmode=driving",
     "photo_original": "https://ajaccio.media.tourinsoft.eu/upload/2013--Mezzu-Mare-vue-aerienne.jpg?width=1400",
     "photo_width": 1200,
     "photo_height": 800,
@@ -769,7 +1135,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Ajaccio e islas Sanguinaires",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 41.9068,
+    "route_lng": 8.6222,
+    "routes": {
+      "calvi": {
+        "km": 173,
+        "minutes": 180,
+        "meters": 172715.5,
+        "seconds": 10728
+      },
+      "pv": {
+        "km": 148,
+        "minutes": 165,
+        "meters": 148349.8,
+        "seconds": 9633.4
+      }
+    },
+    "stay": "pv",
+    "long_trip": true
   },
   {
     "id": "urbino",
@@ -777,11 +1161,9 @@ const P = [
     "zone": "extra",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.05,
-    "lng": 9.472,
+    "lat": 42.0513422,
+    "lng": 9.4632095,
     "route": "Étang d'Urbino, Ghisonaccia",
-    "drive_fr": "≈ 1 h 15 de Porto-Vecchio",
-    "drive_es": "≈ 1 h 15 desde Porto-Vecchio",
     "when_fr": "Déjeuner / après-midi",
     "when_es": "Almuerzo / tarde",
     "effort_fr": "Très facile",
@@ -792,7 +1174,7 @@ const P = [
     "advice_es": "Opción tranquila si quieren salir de los grandes clásicos.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/ETANG-D-URBINU",
     "photo_url": "assets/photos/urbino.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89tang%20d%27Urbino%2C%20Ghisonaccia&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=42.0513422%2C9.4632095&travelmode=driving",
     "photo_original": "https://corse.media.tourinsoft.eu/upload/ATC-S.Alessandri-etang-d-urbinu4-2.jpg",
     "photo_width": 1024,
     "photo_height": 683,
@@ -801,7 +1183,25 @@ const P = [
     "duration_fr": "½ journée",
     "duration_es": "Medio día",
     "name_es": "Laguna de Urbino",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.0513422,
+    "route_lng": 9.4632095,
+    "routes": {
+      "calvi": {
+        "km": 140,
+        "minutes": 145,
+        "meters": 140153.3,
+        "seconds": 8663.5
+      },
+      "pv": {
+        "km": 46,
+        "minutes": 55,
+        "meters": 45785.7,
+        "seconds": 3226.5
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   },
   {
     "id": "corte",
@@ -812,8 +1212,6 @@ const P = [
     "lat": 42.305,
     "lng": 9.151,
     "route": "Office de Tourisme de Corte, Corte",
-    "drive_fr": "≈ 1 h 20 de Calvi",
-    "drive_es": "≈ 1 h 20 desde Calvi",
     "when_fr": "Journée",
     "when_es": "Todo el día",
     "effort_fr": "Facile à modéré",
@@ -824,7 +1222,7 @@ const P = [
     "advice_es": "Corte por la mañana → Restonica sólo según el acceso vigente.",
     "info": "https://tourisme-centrecorse.corsica/la-vallee-de-la-restonica-2/",
     "photo_url": "assets/photos/corte.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Office%20de%20Tourisme%20de%20Corte%2C%20Corte&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.305%2C9.151&travelmode=driving",
     "photo_original": "https://reisen-und-urlaub.info/images/Frankreich/Corte_Restonika/IMG_6722.jpg",
     "photo_width": 1000,
     "photo_height": 667,
@@ -833,7 +1231,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Corte y valle de la Restonica",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.305,
+    "route_lng": 9.151,
+    "routes": {
+      "calvi": {
+        "km": 83,
+        "minutes": 90,
+        "meters": 83427,
+        "seconds": 5213.4
+      },
+      "pv": {
+        "km": 98,
+        "minutes": 100,
+        "meters": 98417.6,
+        "seconds": 5979
+      }
+    },
+    "stay": "calvi",
+    "long_trip": true
   },
   {
     "id": "capcorse",
@@ -841,11 +1257,9 @@ const P = [
     "zone": "extra",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.9,
-    "lng": 9.42,
+    "lat": 42.9594214,
+    "lng": 9.454794,
     "route": "Macinaggio, Rogliano",
-    "drive_fr": "Très long trajet depuis Calvi",
-    "drive_es": "Viaje muy largo desde Calvi",
     "when_fr": "Journée",
     "when_es": "Todo el día",
     "effort_fr": "Facile",
@@ -856,7 +1270,7 @@ const P = [
     "advice_es": "Elijan un sector del Cap en vez de recorrerlo entero desde Calvi. Macinaggio, destino de la ruta, está en la costa este.",
     "info": "https://www.capcorse-tourisme.corsica/cap-corse-que-faire-les-incontournables/",
     "photo_url": "assets/photos/capcorse.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Macinaggio%2C%20Rogliano&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.9594214%2C9.454794&travelmode=driving",
     "photo_original": "https://www.capcorse-tourisme.corsica/wp-content/uploads/2023/10/cote-ouest-depuis-le-monte-minerviu.jpg",
     "photo_width": 800,
     "photo_height": 1000,
@@ -865,7 +1279,25 @@ const P = [
     "duration_fr": "Journée complète",
     "duration_es": "Día completo",
     "name_es": "Cap Corse",
-    "photo_small_width": 512
+    "photo_small_width": 512,
+    "route_lat": 42.9594214,
+    "route_lng": 9.454794,
+    "routes": {
+      "calvi": {
+        "km": 125,
+        "minutes": 150,
+        "meters": 125424.2,
+        "seconds": 8774.1
+      },
+      "pv": {
+        "km": 159,
+        "minutes": 175,
+        "meters": 159461.1,
+        "seconds": 10309.3
+      }
+    },
+    "stay": "calvi",
+    "long_trip": true
   },
   {
     "id": "nonza",
@@ -876,8 +1308,6 @@ const P = [
     "lat": 42.785,
     "lng": 9.345,
     "route": "Nonza, Haute-Corse",
-    "drive_fr": "≈ 1 h 30 de Calvi",
-    "drive_es": "≈ 1 h 30 desde Calvi",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Facile",
@@ -888,7 +1318,7 @@ const P = [
     "advice_es": "Combinarlo con Saint-Florent en vez de ir sólo por Nonza.",
     "info": "https://destination-cap-corse.corsica/nonza/",
     "photo_url": "assets/photos/nonza.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Nonza%2C%20Haute-Corse&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.785%2C9.345&travelmode=driving",
     "photo_original": "https://destination-cap-corse.corsica/wp-content/uploads/2020/06/tete_nonza.jpg",
     "photo_width": 1200,
     "photo_height": 713,
@@ -897,7 +1327,25 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "Nonza",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.785,
+    "route_lng": 9.345,
+    "routes": {
+      "calvi": {
+        "km": 86,
+        "minutes": 100,
+        "meters": 85793.5,
+        "seconds": 5757.5
+      },
+      "pv": {
+        "km": 150,
+        "minutes": 160,
+        "meters": 149606.3,
+        "seconds": 9565.6
+      }
+    },
+    "stay": "calvi",
+    "long_trip": true
   },
   {
     "id": "agriates",
@@ -908,8 +1356,6 @@ const P = [
     "lat": 42.681,
     "lng": 9.303,
     "route": "Port de Saint-Florent, Saint-Florent",
-    "drive_fr": "≈ 1 h 10 de Calvi",
-    "drive_es": "≈ 1 h 10 desde Calvi",
     "when_fr": "Journée",
     "when_es": "Todo el día",
     "effort_fr": "Facile",
@@ -920,7 +1366,7 @@ const P = [
     "advice_es": "Reservar sólo después de revisar el tiempo y las salidas de barco.",
     "info": "https://www.corsica-saintflorent.com/lagriate/",
     "photo_url": "assets/photos/agriates.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Saint-Florent%2C%20Saint-Florent&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.681%2C9.303&travelmode=driving",
     "photo_original": "https://www.nebbiu-aventura.corsica/ag_admin/photo/diapo/1/6195609657_1200xautox75.webp",
     "photo_width": 1200,
     "photo_height": 799,
@@ -929,7 +1375,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Saint-Florent y desierto de Agriates",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.681,
+    "route_lng": 9.303,
+    "routes": {
+      "calvi": {
+        "km": 67,
+        "minutes": 75,
+        "meters": 66640.1,
+        "seconds": 4500
+      },
+      "pv": {
+        "km": 134,
+        "minutes": 145,
+        "meters": 133695,
+        "seconds": 8453.4
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "piana",
@@ -937,11 +1401,9 @@ const P = [
     "zone": "extra",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.24,
-    "lng": 8.64,
+    "lat": 42.2676535,
+    "lng": 8.6941493,
     "route": "Port de Porto, Ota",
-    "drive_fr": "≈ 2 h de Calvi",
-    "drive_es": "≈ 2 h desde Calvi",
     "when_fr": "Journée",
     "when_es": "Todo el día",
     "effort_fr": "Facile",
@@ -952,7 +1414,7 @@ const P = [
     "advice_es": "Elijan un paseo en barco desde Porto o descubrir Piana por la ruta. Combinen ambos sólo saliendo temprano y con horarios compatibles.",
     "info": "https://www.ouestcorsica.com/les-incontournables/les-calanques-de-piana-site-unesco/",
     "photo_url": "assets/photos/piana.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Porto%2C%20Ota&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.2676535%2C8.6941493&travelmode=driving",
     "photo_original": "https://checkyeti.imgix.net/images/prod/products/24717/boat-trip-to-the-calanques-de-piana-scandola-with-snorkeling-aperitif-jps-aventure-corse-hero1",
     "photo_width": 1200,
     "photo_height": 900,
@@ -961,7 +1423,25 @@ const P = [
     "duration_fr": "Journée",
     "duration_es": "Día completo",
     "name_es": "Calanques de Piana y Scandola",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.2676535,
+    "route_lng": 8.6941493,
+    "routes": {
+      "calvi": {
+        "km": 71,
+        "minutes": 85,
+        "meters": 70850.5,
+        "seconds": 4816.2
+      },
+      "pv": {
+        "km": 183,
+        "minutes": 195,
+        "meters": 183337.8,
+        "seconds": 11666.4
+      }
+    },
+    "stay": "calvi",
+    "long_trip": false
   },
   {
     "id": "caporosso",
@@ -969,11 +1449,9 @@ const P = [
     "zone": "extra",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.23,
-    "lng": 8.534,
+    "lat": 42.235246,
+    "lng": 8.5834915,
     "route": "Parking Capo Rosso, Piana",
-    "drive_fr": "≈ 2 h de Calvi",
-    "drive_es": "≈ 2 h desde Calvi",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Sportif",
@@ -984,7 +1462,7 @@ const P = [
     "advice_es": "Sólo si todo el grupo tiene ganas de hacer una caminata exigente.",
     "info": "https://www.ouestcorsica.com/itineraires/tour-genoise-de-capo-rosso/",
     "photo_url": "assets/photos/caporosso.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Capo%20Rosso%2C%20Piana&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.235246%2C8.5834915&travelmode=driving",
     "photo_original": "https://www.forumdephotos.com/uploads/monthly_2022_09/1917744774_TourdeCapoRossoDJI_0001.jpg.7458e2c68af9427eff757752223c9327.jpg",
     "photo_width": 1000,
     "photo_height": 562,
@@ -993,7 +1471,25 @@ const P = [
     "duration_fr": "4–5 h",
     "duration_es": "4–5 h",
     "name_es": "Capo Rosso",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.235246,
+    "route_lng": 8.5834915,
+    "routes": {
+      "calvi": {
+        "km": 87,
+        "minutes": 100,
+        "meters": 86863.4,
+        "seconds": 5891
+      },
+      "pv": {
+        "km": 193,
+        "minutes": 210,
+        "meters": 193479.2,
+        "seconds": 12529.3
+      }
+    },
+    "stay": "calvi",
+    "long_trip": true
   },
   {
     "id": "cargese",
@@ -1004,8 +1500,6 @@ const P = [
     "lat": 42.136,
     "lng": 8.596,
     "route": "Église grecque Saint-Spyridon, Cargèse",
-    "drive_fr": "≈ 2 h 15 de Calvi",
-    "drive_es": "≈ 2 h 15 desde Calvi",
     "when_fr": "Journée",
     "when_es": "Día",
     "effort_fr": "Facile",
@@ -1016,7 +1510,7 @@ const P = [
     "advice_es": "Para un día dedicado a la costa oeste. Sumar Cargèse a Piana y a un paseo en barco haría el día demasiado cargado.",
     "info": "https://www.ouestcorsica.com/a-voir-a-faire/les-villages/cargese/",
     "photo_url": "assets/photos/cargese.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89glise%20grecque%20Saint-Spyridon%2C%20Carg%C3%A8se&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=42.53695%2C8.78501&destination=42.136%2C8.596&travelmode=driving",
     "photo_original": "https://mediaim.expedia.com/destination/1/75eb3501eea13735c45f40988db96326.jpg",
     "photo_width": 1200,
     "photo_height": 800,
@@ -1025,7 +1519,25 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "Cargèse",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.136,
+    "route_lng": 8.596,
+    "routes": {
+      "calvi": {
+        "km": 99,
+        "minutes": 110,
+        "meters": 99170.6,
+        "seconds": 6535.2
+      },
+      "pv": {
+        "km": 169,
+        "minutes": 180,
+        "meters": 168939.7,
+        "seconds": 10785.2
+      }
+    },
+    "stay": "calvi",
+    "long_trip": true
   },
   {
     "id": "cascadeanglais",
@@ -1033,11 +1545,9 @@ const P = [
     "zone": "extra",
     "type": "nature",
     "emoji": "🌿",
-    "lat": 42.11,
-    "lng": 9.112,
+    "lat": 42.1285849,
+    "lng": 9.1337639,
     "route": "Gare de Vizzavona, Vivario",
-    "drive_fr": "Long trajet depuis Porto-Vecchio",
-    "drive_es": "Viaje largo desde Porto-Vecchio",
     "when_fr": "Matin",
     "when_es": "Mañana",
     "effort_fr": "Modéré",
@@ -1048,7 +1558,7 @@ const P = [
     "advice_es": "Para un día dedicado al centro de la isla. Calculen el trayecto antes de salir: no es una salida cerca de Porto-Vecchio.",
     "info": "https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS",
     "photo_url": "assets/photos/cascadeanglais.webp",
-    "route_url": "https://www.google.com/maps/dir/?api=1&destination=Gare%20de%20Vizzavona%2C%20Vivario&travelmode=driving",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=42.1285849%2C9.1337639&travelmode=driving",
     "photo_original": "https://corse.media.tourinsoft.eu/upload/randonnees-la-cascade-des-anglais-office-de-tourisme-de-corte-office-de-tourisme-175920190411154455-2.jpg",
     "photo_width": 1024,
     "photo_height": 576,
@@ -1057,6 +1567,136 @@ const P = [
     "duration_fr": "2–3 h",
     "duration_es": "2–3 h",
     "name_es": "Cascada de los Ingleses",
-    "photo_small_width": 640
+    "photo_small_width": 640,
+    "route_lat": 42.1285849,
+    "route_lng": 9.1337639,
+    "routes": {
+      "calvi": {
+        "km": 113,
+        "minutes": 115,
+        "meters": 112580.3,
+        "seconds": 6841.8
+      },
+      "pv": {
+        "km": 88,
+        "minutes": 100,
+        "meters": 88214.6,
+        "seconds": 5747.2
+      }
+    },
+    "stay": "pv",
+    "long_trip": true
+  },
+  {
+    "id": "saintcyprien",
+    "name": "Saint-Cyprien — plage & baie",
+    "name_es": "Saint-Cyprien — playa y bahía",
+    "zone": "pv",
+    "type": "beach",
+    "emoji": "🏖️",
+    "lat": 41.632348,
+    "lng": 9.345355,
+    "route": "Accès plage de Saint-Cyprien, Lecci",
+    "when_fr": "Matin ou fin d’après-midi",
+    "when_es": "Mañana o final de la tarde",
+    "effort_fr": "Facile · marche sur le sable",
+    "effort_es": "Fácil · caminata por la arena",
+    "duration_fr": "2–4 h",
+    "duration_es": "2–4 h",
+    "fr": "Une grande baie de sable clair et d’eau turquoise à Lecci. Installez-vous près des accès du village pour une pause baignade tranquille, ou marchez le long du rivage selon votre envie.",
+    "es": "Una amplia bahía de arena clara y agua turquesa en Lecci. Instálense cerca de los accesos del pueblo para una pausa de playa tranquila, o caminen por la orilla a su ritmo.",
+    "advice_fr": "Saint-Cyprien l’après-midi → promenade et dîner dans la vieille ville de Porto-Vecchio. Une journée facile à organiser depuis les Lofts.",
+    "advice_es": "Saint-Cyprien por la tarde → paseo y cena en el casco antiguo de Porto-Vecchio. Un día fácil de organizar desde los Lofts.",
+    "info": "https://www.cirkwi.com/fr/point-interet/1749873-la-plage-de-saint-cyprien",
+    "photo_source": "https://spiagge.life/it/spiaggia/plage-de-saint-cyprien",
+    "photo_original": "https://spiagge.life/img/3366/1200/600/plage-de-saint-cyprien_3366.jpg",
+    "photo_credit": "Spiagge.life — baie de Saint-Cyprien",
+    "photo_width": 1200,
+    "photo_height": 600,
+    "photo_small_width": 640,
+    "photo_url": "assets/photos/saintcyprien.webp",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.632348%2C9.345355&travelmode=driving",
+    "route_lat": 41.632348,
+    "route_lng": 9.345355,
+    "routes": {
+      "calvi": {
+        "km": 195,
+        "minutes": 205,
+        "meters": 195356.6,
+        "seconds": 12237.6
+      },
+      "pv": {
+        "km": 15,
+        "minutes": 25,
+        "meters": 14887.6,
+        "seconds": 1201.9
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
+  },
+  {
+    "id": "portovecchio",
+    "name": "Porto-Vecchio — vieille ville & port",
+    "name_es": "Porto-Vecchio — casco antiguo y puerto",
+    "zone": "pv",
+    "type": "culture",
+    "emoji": "🏛️",
+    "lat": 41.5912,
+    "lng": 9.2786,
+    "route": "Parking Centre Ville, Porto-Vecchio",
+    "when_fr": "Fin d’après-midi et soirée",
+    "when_es": "Final de la tarde y noche",
+    "effort_fr": "Facile · ruelles en pente et pavés",
+    "effort_es": "Fácil · callecitas en pendiente y adoquines",
+    "duration_fr": "2–3 h",
+    "duration_es": "2–3 h",
+    "fr": "Ruelles de la citadelle, place de la République et église Saint-Jean-Baptiste : une découverte culturelle sans grosse randonnée. Prolongez la balade vers le port si le groupe en a envie ; la liaison avec la ville haute comporte une pente.",
+    "es": "Callecitas de la ciudadela, plaza de la República e iglesia de San Juan Bautista: un paseo cultural sin una gran caminata. Pueden seguir hasta el puerto si tienen ganas; el camino entre el puerto y la ciudad alta tiene pendiente.",
+    "advice_fr": "Après Saint-Cyprien ou une journée plage, arrivez en fin d’après-midi pour flâner puis dîner dans la vieille ville. Garez-vous près de la ville haute pour limiter les montées.",
+    "advice_es": "Después de Saint-Cyprien o de un día de playa, lleguen al final de la tarde para pasear y cenar en el casco antiguo. Estacionen cerca de la ciudad alta para evitar tantas subidas.",
+    "info": "https://www.visit-corsica.com/fr/Offres-et-idees-sejours/Selon-vos-envies/Offres-art-et-culture/Visite-guidee-de-la-citadelle-de-Porto-Vecchio-avec-l-Office-de-tourisme",
+    "photo_source": "https://www.viamichelin.fr/cartes-plans/sites-touristiques/poi/porto_vecchio-20137-0cb85a7b2252",
+    "photo_original": "https://gv-images.viamichelin.com/images/michelin_guide/max/Img_7404.jpg?format=auto&width=1280",
+    "photo_credit": "ViaMichelin — citadelle de Porto-Vecchio",
+    "photo_width": 1200,
+    "photo_height": 900,
+    "photo_small_width": 640,
+    "photo_url": "assets/photos/portovecchio.webp",
+    "route_url": "https://www.google.com/maps/dir/?api=1&origin=41.71174%2C9.39577&destination=41.5927928%2C9.2798009&travelmode=driving",
+    "route_lat": 41.5927928,
+    "route_lng": 9.2798009,
+    "routes": {
+      "calvi": {
+        "km": 200,
+        "minutes": 210,
+        "meters": 199643.1,
+        "seconds": 12515.8
+      },
+      "pv": {
+        "km": 19,
+        "minutes": 25,
+        "meters": 19174.1,
+        "seconds": 1480.1
+      }
+    },
+    "stay": "pv",
+    "long_trip": false
   }
 ];
+const BASES = {
+  "calvi": {
+    "name": "La Signoria",
+    "lat": 42.53695,
+    "lng": 8.78501,
+    "url": "https://www.hotel-la-signoria.com/",
+    "coordinate_source": "https://mapcarta.com/fr/32837500"
+  },
+  "pv": {
+    "name": "Les Lofts de Sainte-Lucie",
+    "lat": 41.71174,
+    "lng": 9.39577,
+    "url": "https://lesloftsdesaintelucie.com/",
+    "coordinate_source": "https://www.zonza-saintelucie.com/hebergement-locatif/les-lofts-de-sainte-lucie-h0/"
+  }
+};

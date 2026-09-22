@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#123f3a">
 <title>Corse 2026 · Notre guide en famille</title>
-<meta name="description" content="33 idées de sorties en Corse : plages, villages et nature depuis Calvi et Porto-Vecchio. Guide familial en français et en espagnol.">
+<meta name="description" content="35 idées de sorties en Corse : plages, villages et nature depuis Calvi et Porto-Vecchio. Guide familial en français et en espagnol.">
 <link rel="stylesheet" href="assets/vendor/maplibre-gl.css">
 <style>
 :root{--ink:#16322e;--muted:#6c7c78;--forest:#123f3a;--sea:#287d83;--paper:#fffdf8;--sand:#f4eee3;--line:#e5ddd1;--warn:#fff0d0;--warntext:#744900}
@@ -29,19 +29,25 @@ footer{padding:22px 0 90px;color:var(--muted);font-size:12px;line-height:1.55}
 .photo-missing:before{content:attr(data-error)}.updated{margin-top:20px;font-size:11px}details{margin-top:20px}summary{cursor:pointer;font-weight:700}#photoCredits{columns:2;line-height:1.8;margin-top:14px}#photoCredits a{color:var(--sea);overflow-wrap:anywhere}#photoCredits p{break-inside:avoid;margin:0 0 10px}.chip{min-height:44px}.lang button{min-height:40px}.grid>.empty{grid-column:1/-1}
 @media(max-width:760px){.bar{gap:6px}.chip{padding:9px 12px}.lang button{padding:7px 8px}.hero{min-height:420px}.photo{height:240px}#photoCredits{columns:1}.card{scroll-margin-top:90px}.head{align-items:start}.count{display:block;font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.card:hover{transform:none}}
+
+.lodgings{padding-bottom:6px}.lodgings h2{font-size:28px}.lodging-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.lodging{display:flex;flex-direction:column;gap:7px;padding:19px 21px;border:1px solid #d6e5df;border-radius:20px;background:#edf5f1;color:var(--ink);text-decoration:none}.lodging:nth-child(2){background:#f7efe2;border-color:#e6d8bf}.lodging>span{font-size:11px;text-transform:uppercase;font-weight:800;letter-spacing:.06em}.lodging strong{font:700 24px Georgia,serif}.lodging small{color:#526660;font-size:13px}.lodging b{font-size:12px;margin-top:4px}.stay-tag{display:inline-block;border-radius:8px;padding:6px 9px;font-size:11px;line-height:1.4;font-weight:800;background:#e2efea;color:#245846;margin-bottom:7px}.stay-tag.pv{background:#f5e9d6;color:#725526}.drive-block{margin:0 0 15px;border:1px solid #dce7e2;border-radius:13px;background:#f4f8f5;overflow:hidden}.drive-main{display:flex;flex-wrap:wrap;align-items:center;gap:5px 12px;padding:11px 12px}.drive-main>span{flex-basis:100%;font-size:12px;color:#526660}.drive-main strong{font-size:16px}.drive-main small{font-size:11px;color:#60736a}.drive-compare{margin:0;padding:9px 12px;border-top:1px solid #dce7e2;font-size:12px}.drive-compare summary{font-size:11px;font-weight:600;color:#53695e}.drive-compare p{margin:9px 0 2px;line-height:1.5}.drive-note{font-size:12px;line-height:1.5;margin:0;padding:0 12px 10px;color:#775d2f}.route-sources{max-width:900px}.route-sources a{color:var(--sea)}
+@media(max-width:760px){.lodging-grid{grid-template-columns:1fr}.lodging{padding:15px 17px}.lodging strong{font-size:22px}.lodgings h2{font-size:25px}}
+
 </style>
 </head><body>
 <header class="hero"><div class="hero-bg"></div><div class="wrap"><div class="kicker" data-i18n="kicker"></div><h1 data-i18n="island">Corse</h1><p data-i18n="hero"></p><div class="hero-meta"><span>26 sept → 4 oct 2026</span><span>Calvi → Porto-Vecchio</span><span id="langPill">🇫🇷 Français</span></div></div></header>
 <nav class="sticky"><div class="wrap bar"><div class="chips">
-<button class="chip on" data-f="all" data-i18n="all"></button><button class="chip" data-f="calvi">Calvi</button><button class="chip" data-f="pv">Porto-Vecchio</button><button class="chip" data-f="beach" data-i18n="beaches"></button><button class="chip" data-f="culture" data-i18n="culture"></button><button class="chip" data-f="nature" data-i18n="nature"></button><button class="chip" data-f="extra" data-i18n="long"></button>
+<button class="chip on" data-f="all" data-i18n="all"></button><button class="chip" data-f="calvi" data-i18n="filterCalvi">Calvi</button><button class="chip" data-f="pv" data-i18n="filterPv">Porto-Vecchio</button><button class="chip" data-f="beach" data-i18n="beaches"></button><button class="chip" data-f="culture" data-i18n="culture"></button><button class="chip" data-f="nature" data-i18n="nature"></button><button class="chip" data-f="extra" data-i18n="long"></button>
 </div><div class="lang" aria-label="Langue / Idioma"><button id="frBtn" class="on">FR</button><button id="esBtn">ES</button></div></div></nav>
-<main id="main"><noscript><p class="wrap">Activez JavaScript pour afficher les 33 fiches et la carte. / Activá JavaScript para ver las 33 fichas y el mapa.</p></noscript>
+<main id="main"><noscript><p class="wrap">Activez JavaScript pour afficher les 35 fiches et la carte. / Activá JavaScript para ver las 35 fichas y el mapa.</p></noscript>
+<section class="lodgings"><div class="wrap"><h2 data-i18n="lodgings"></h2><p class="sub" data-i18n="lodgingsSub"></p><div class="lodging-grid"><a href="https://www.hotel-la-signoria.com/" target="_blank" rel="noopener noreferrer" class="lodging"><span data-i18n="calviDates"></span><strong>La Signoria</strong><small>Route de la forêt de Bonifato · Calvi</small><b data-i18n="hotelSite"></b></a><a href="https://lesloftsdesaintelucie.com/" target="_blank" rel="noopener noreferrer" class="lodging"><span data-i18n="pvDates"></span><strong>Les Lofts de Sainte-Lucie</strong><small data-i18n="loftsArea"></small><b data-i18n="hotelSite"></b></a></div></div></section>
 <section><div class="wrap"><div class="head"><div><h2 data-i18n="mapTitle"></h2><p class="sub" data-i18n="mapSub"></p></div></div><div id="map" aria-label="Carte des lieux"><p class="map-status" data-i18n="mapLoading"></p></div><div class="note" data-i18n="mapNote"></div></div></section>
 <section><div class="wrap"><div class="head"><div><h2 data-i18n="placesTitle"></h2><p class="sub" data-i18n="placesSub"></p></div><div class="count" id="count" role="status" aria-live="polite"></div></div><div class="grid" id="cards"></div></div></section>
 <section><div class="wrap"><div class="favbox"><h2 data-i18n="favTitle"></h2><div id="favempty" data-i18n="favEmpty"></div><div id="favlist"></div></div></div></section>
 </main>
-<footer><div class="wrap"><p data-i18n="footer"></p><details><summary data-i18n="creditsTitle"></summary><p data-i18n="creditsIntro"></p><div id="photoCredits"></div></details><p class="updated" data-i18n="updated"></p></div></footer>
+<footer><div class="wrap"><p data-i18n="footer"></p><details class="route-sources"><summary data-i18n="routeDetails"></summary><p data-i18n="routeSources"></p><p><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap</a> · <a href="https://routing.openstreetmap.de/" target="_blank" rel="noopener noreferrer">OSRM</a></p></details><details><summary data-i18n="creditsTitle"></summary><p data-i18n="creditsIntro"></p><div id="photoCredits"></div></details><p class="updated" data-i18n="updated"></p></div></footer>
 
-<script src="places.js"></script>
-<script src="app.js?v=20260922-2"></script>
+<script src="places.js?v=20260922-3"></script>
+<script src="app.js?v=20260922-3"></script>
 </body></html>
+

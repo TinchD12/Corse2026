@@ -37,3 +37,9 @@ Images redimensionnées, compressées en WebP et recadrées à l’affichage. La
 | Capo Rosso | [forumdephotos.com](https://www.forumdephotos.com/uploads/monthly_2022_09/1917744774_TourdeCapoRossoDJI_0001.jpg.7458e2c68af9427eff757752223c9327.jpg) | [Image](https://www.forumdephotos.com/uploads/monthly_2022_09/1917744774_TourdeCapoRossoDJI_0001.jpg.7458e2c68af9427eff757752223c9327.jpg) |
 | Cargèse | [mediaim.expedia.com](https://mediaim.expedia.com/destination/1/75eb3501eea13735c45f40988db96326.jpg) | [Image](https://mediaim.expedia.com/destination/1/75eb3501eea13735c45f40988db96326.jpg) |
 | Cascade des Anglais | [corse.media.tourinsoft.eu](https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS) | [Image](https://corse.media.tourinsoft.eu/upload/randonnees-la-cascade-des-anglais-office-de-tourisme-de-corte-office-de-tourisme-175920190411154455-2.jpg) |
+
+## Ajouts du 22 septembre 2026
+
+- Saint-Cyprien : https://spiagge.life/it/spiaggia/plage-de-saint-cyprien — image de la baie publiée par Spiagge.life, recadrée et compressée.
+- Porto-Vecchio : https://www.viamichelin.fr/cartes-plans/sites-touristiques/poi/porto_vecchio-20137-0cb85a7b2252 — citadelle, photo publiée par ViaMichelin, recadrée et compressée.
+
