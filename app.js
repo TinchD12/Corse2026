@@ -8,10 +8,13 @@ Object.assign(UI.fr,{stayCalvi:'À privilégier · séjour Calvi',stayPv:'À pri
 Object.assign(UI.es,{stayCalvi:'Mejor durante la estadía en Calvi',stayPv:'Mejor durante la estadía en Porto-Vecchio',filterCalvi:'Estadía en Calvi',filterPv:'Estadía en Porto-Vecchio',from:'Desde',oneWay:'solo ida',compare:'Comparar desde el otro alojamiento',lodgings:'Nuestros dos puntos de partida',lodgingsSub:'Las distancias salen desde sus alojamientos, no desde el centro de las ciudades.',calviDates:'26 → 29 de septiembre · zona de Calvi',pvDates:'29 de septiembre → 4 de octubre · zona de Porto-Vecchio',loftsArea:'Sainte-Lucie · lugar llamado A Parata',hotelSite:'Ver el alojamiento ↗',longRoad:'Trayecto largo: reserven un día completo.',mapNote:'🏖️ Playas · 🏛️ Cultura y patrimonio · 🌿 Naturaleza. Distancias por ruta, solo ida, hasta el acceso indicado. Tiempos orientativos sin tráfico, paradas, caminatas ni barco. « Cómo llegar » sale del alojamiento recomendado.',placesSub:'Cada ficha indica en qué estadía conviene hacer la salida y la distancia y el tiempo desde el alojamiento. Las excursiones largas requieren un día dedicado.',routeDetails:'Distancias y trayectos',routeSources:'Cálculo por ruta con OpenStreetMap / OSRM, del 22 de septiembre de 2026. Valores redondeados; el recorrido real puede variar según el tráfico y los accesos abiertos. En las salidas con varios lugares, solo se cuenta el acceso indicado. Hay que sumar los paseos a pie y los trayectos en barco.',recommendedBase:'Alojamiento recomendado',boatNote:'Trayecto hasta el puerto de Bonifacio; hay que sumar la travesía en barco.'});
 
 UI.fr.closeActivity='Fermer la fiche';UI.es.closeActivity='Cerrar la ficha';
+Object.assign(UI.fr,{mapFavorites:'♥ Favoris uniquement',mapFavoritesEmpty:'Aucun favori pour ce filtre. Ajoutez des activités avec le cœur ou changez le filtre.',mapShown:'lieux affichés sur la carte',mapShownOne:'lieu affiché sur la carte'});
+Object.assign(UI.es,{mapFavorites:'♥ Solo favoritos',mapFavoritesEmpty:'No hay favoritos para este filtro. Agregá actividades con el corazón o cambiá el filtro.',mapShown:'lugares en el mapa',mapShownOne:'lugar en el mapa'});
 let activityPopup=null,selectedMapId=null;
 const memory={};
 function readStore(key){try{return localStorage.getItem(key)??memory[key]??null}catch{return memory[key]??null}}
 function writeStore(key,value){memory[key]=value;try{localStorage.setItem(key,value)}catch{/* Memory keeps this session usable in private contexts. */}}
+let mapFavoritesOnly=readStore('corsicaMapFavOnly')==='true';
 let lang=['fr','es'].includes(readStore('corsicaLang'))?readStore('corsicaLang'):'fr',filter='all',markers=[],map=null,mapReady=false,mapFailed=false;
 const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const t=k=>UI[lang][k];
@@ -19,7 +22,9 @@ const name=p=>lang==='es'?p.name_es:p.name;
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const visible=p=>filter==='all'||((filter==='calvi'||filter==='pv')?p.stay===filter:filter==='extra'?p.long_trip:p.type===filter);
 function favs(){try{const a=JSON.parse(readStore('corsicaFav41')||'[]');return Array.isArray(a)?[...new Set(a)].filter(id=>P.some(p=>p.id===id)):[]}catch{return[]}}
-function toggleFav(id){let a=favs();a=a.includes(id)?a.filter(x=>x!==id):[...a,id];writeStore('corsicaFav41',JSON.stringify(a));updateFavoriteButtons();renderFavs()}
+const mapVisible=p=>visible(p)&&(!mapFavoritesOnly||favs().includes(p.id));
+function updateMapFilter(){const button=document.getElementById('mapFavorites');button.textContent=t('mapFavorites')+' ('+favs().length+')';button.classList.toggle('on',mapFavoritesOnly);button.setAttribute('aria-pressed',String(mapFavoritesOnly));const count=P.filter(mapVisible).length;document.getElementById('mapFilterStatus').textContent=mapFavoritesOnly&&count===0?t('mapFavoritesEmpty'):count+' '+t(count===1?'mapShownOne':'mapShown')}
+function toggleFav(id){let a=favs();a=a.includes(id)?a.filter(x=>x!==id):[...a,id];writeStore('corsicaFav41',JSON.stringify(a));updateFavoriteButtons();renderFavs();if(mapFavoritesOnly)drawMarkers();else updateMapFilter()}
 function updateFavoriteButtons(){const a=favs();document.querySelectorAll('[data-fav]').forEach(b=>{const p=P.find(x=>x.id===b.dataset.fav),on=a.includes(p.id);b.classList.toggle('on',on);b.textContent=on?'♥':'♡';b.setAttribute('aria-pressed',String(on));b.setAttribute('aria-label',(on?t('removeFav'):t('addFav'))+' : '+name(p))})}
 function zoneLabel(p){return t(p.stay==='calvi'?'stayCalvi':'stayPv')}
 function typeLabel(p){return t(p.type==='beach'?'typeBeach':p.type==='culture'?'typeCulture':'typeNature')}
@@ -49,14 +54,14 @@ function renderFavs(){const ids=favs(),b=document.getElementById('favlist');b.re
 function renderCredits(){const b=document.getElementById('photoCredits');b.replaceChildren();P.forEach(p=>{const row=document.createElement('p'),a=document.createElement('a');a.href=p.photo_source;a.target='_blank';a.rel='noopener noreferrer';a.textContent=p.photo_credit;row.append(name(p)+' — ',a);if(p.photo_license){const license=document.createElement('a');license.href=p.photo_license_url;license.target='_blank';license.rel='noopener noreferrer';license.textContent=p.photo_license;row.append(' · ',license)}b.append(row)})}
 function closeMapActivity(restoreFocus=false){if(!activityPopup)return;activityPopup.restoreFocus=restoreFocus;activityPopup.remove()}
 function openMapActivity(id,trigger=null,recenter=true){
- const p=P.find(x=>x.id===id);if(!mapReady||!map||!p||!visible(p))return;
+ const p=P.find(x=>x.id===id);if(!mapReady||!map||!p||!mapVisible(p))return;
  closeMapActivity(false);
  const source=document.getElementById('place-'+id);if(!source)return;
  const card=source.cloneNode(true);card.removeAttribute('id');card.removeAttribute('tabindex');card.classList.add('map-activity-card');
  card.querySelector('h3').id='map-activity-title';
  const photo=card.querySelector('img');photo.loading='eager';photo.hidden=false;photo.parentElement.classList.remove('photo-missing');delete photo.dataset.retried;wireActivityPhoto(photo,p);
  card.querySelector('[data-fav]').addEventListener('click',()=>toggleFav(id));
- const popup=new maplibregl.Popup({anchor:'center',maxWidth:'360px',className:'activity-popup',closeOnClick:false,closeOnMove:false,focusAfterOpen:false}).setLngLat([p.lng,p.lat]).setDOMContent(card).addTo(map);
+ const popup=new maplibregl.Popup({anchor:'center',maxWidth:'none',className:'activity-popup',closeOnClick:false,closeOnMove:false,focusAfterOpen:false}).setLngLat([p.lng,p.lat]).setDOMContent(card).addTo(map);
  activityPopup=popup;selectedMapId=id;popup.restoreFocus=true;
  const element=popup.getElement();element.setAttribute('role','dialog');element.setAttribute('aria-modal','false');element.setAttribute('aria-labelledby','map-activity-title');
  const close=element.querySelector('.maplibregl-popup-close-button');close.setAttribute('aria-label',t('closeActivity'));close.title=t('closeActivity');
@@ -68,9 +73,9 @@ function openMapActivity(id,trigger=null,recenter=true){
 }
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&activityPopup){event.preventDefault();closeMapActivity(true)}});
 
-function drawMarkers(){if(!map||!mapReady)return;const previous=selectedMapId;closeMapActivity(false);markers.forEach(m=>m.remove());markers=[];P.filter(visible).forEach(p=>{const e=document.createElement('button');e.type='button';e.className='marker '+p.type;e.textContent=p.emoji;e.title=name(p);e.setAttribute('aria-label',name(p));e.setAttribute('aria-haspopup','dialog');e.addEventListener('click',()=>openMapActivity(p.id,e));markers.push(new maplibregl.Marker({element:e}).setLngLat([p.lng,p.lat]).addTo(map))});if(previous)openMapActivity(previous,null,false)}
-function fitMap(){if(!map||!mapReady)return;const a=P.filter(visible);if(!a.length)return;const bounds=new maplibregl.LngLatBounds();a.forEach(p=>bounds.extend([p.lng,p.lat]));map.fitBounds(bounds,{padding:55,maxZoom:10,duration:reducedMotion?0:650})}
-function setFilter(next,moveMap=true){closeMapActivity(false);filter=next;document.querySelectorAll('.chip').forEach(b=>{const on=b.dataset.f===filter;b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))});renderCards();renderFavs();drawMarkers();if(moveMap)fitMap()}
+function drawMarkers(){updateMapFilter();if(!map||!mapReady)return;const previous=selectedMapId;closeMapActivity(false);markers.forEach(m=>m.remove());markers=[];P.filter(mapVisible).forEach(p=>{const e=document.createElement('button');e.type='button';e.className='marker '+p.type;e.textContent=p.emoji;e.title=name(p);e.setAttribute('aria-label',name(p));e.setAttribute('aria-haspopup','dialog');e.addEventListener('click',()=>openMapActivity(p.id,e));markers.push(new maplibregl.Marker({element:e}).setLngLat([p.lng,p.lat]).addTo(map))});if(previous)openMapActivity(previous,null,false)}
+function fitMap(){if(!map||!mapReady)return;const a=P.filter(mapVisible);if(!a.length)return;const bounds=new maplibregl.LngLatBounds();a.forEach(p=>bounds.extend([p.lng,p.lat]));map.fitBounds(bounds,{padding:55,maxZoom:10,duration:reducedMotion?0:650})}
+function setFilter(next,moveMap=true){closeMapActivity(false);filter=next;document.querySelectorAll('.chip[data-f]').forEach(b=>{const on=b.dataset.f===filter;b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))});renderCards();renderFavs();drawMarkers();if(moveMap)fitMap()}
 function applyLang(){document.documentElement.lang=lang;document.title=lang==='fr'?'Corse 2026 · Notre guide en famille':'Córcega 2026 · Nuestra guía en familia';document.querySelectorAll('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n));['fr','es'].forEach(l=>{const b=document.getElementById(l+'Btn');b.classList.toggle('on',lang===l);b.setAttribute('aria-pressed',String(lang===l))});document.getElementById('langPill').textContent=lang==='fr'?'🇫🇷 Français':'🇦🇷 Español';writeStore('corsicaLang',lang);renderCards();renderFavs();renderCredits();drawMarkers();if(mapFailed)showMapFailure()}
 function showMapFailure(){mapFailed=true;const b=document.getElementById('map');b.classList.add('map-failed');b.replaceChildren();const p=document.createElement('p');p.className='map-status';p.textContent=t('mapUnavailable');b.append(p)}
 function initMap(){
@@ -85,8 +90,9 @@ function initMap(){
   map.on('error',()=>{/* Tile errors may recover; the initial-load timeout handles total failure. */});
  }catch{map=null;showMapFailure()}
 }
+document.getElementById('mapFavorites').addEventListener('click',()=>{mapFavoritesOnly=!mapFavoritesOnly;writeStore('corsicaMapFavOnly',String(mapFavoritesOnly));closeMapActivity(false);drawMarkers();fitMap()});
 document.getElementById('frBtn').addEventListener('click',()=>{lang='fr';applyLang()});document.getElementById('esBtn').addEventListener('click',()=>{lang='es';applyLang()});
-document.querySelectorAll('.chip').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.f==='all'));b.addEventListener('click',()=>setFilter(b.dataset.f))});
+document.querySelectorAll('.chip[data-f]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.f==='all'));b.addEventListener('click',()=>setFilter(b.dataset.f))});
 applyLang();
 // The guide renders before the map dependency is downloaded.
 const mapScript=document.createElement('script');mapScript.src='assets/vendor/maplibre-gl.js';mapScript.onload=initMap;mapScript.onerror=showMapFailure;document.body.append(mapScript);
