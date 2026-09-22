@@ -43,3 +43,7 @@ Images redimensionnées, compressées en WebP et recadrées à l’affichage. La
 - Saint-Cyprien : https://spiagge.life/it/spiaggia/plage-de-saint-cyprien — image de la baie publiée par Spiagge.life, recadrée et compressée.
 - Porto-Vecchio : https://www.viamichelin.fr/cartes-plans/sites-touristiques/poi/porto_vecchio-20137-0cb85a7b2252 — citadelle, photo publiée par ViaMichelin, recadrée et compressée.
 
+
+## Couverture panoramique
+
+Vue du golfe de Porto depuis le Capo d’Orto. Source : [Mundo](https://www.mundo.cz/sites/default/files/images/zajezdy/korsika/korsika-capo-orto-vyhled_1.jpg). Fichier local : assets/photos/corse-panorama.webp.
