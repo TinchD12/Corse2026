@@ -1,0 +1,534 @@
+{
+  "checked_at": "2026-09-22",
+  "method": "HTTP GET, redirections suivies, titres des pages descriptives examinés. HTTP 200 pour Google Maps confirme l’ouverture du service, pas un temps de trajet ni un guidage GPS sur le terrain.",
+  "links": [
+    {
+      "id": "calvi",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LA-CITADELLE-DE-CALVI",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LA-CITADELLE-DE-CALVI",
+      "title": "LA CITADELLE DE CALVI | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "calvi",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Citadelle%20de%20Calvi%2C%2020260%20Calvi&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Citadelle%20de%20Calvi%2C%2020260%20Calvi&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "balagne",
+      "kind": "info",
+      "url": "https://balagne-corsica.com/decouvrir-la-balagne/villages-arriere-pays/sant-antonino/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/decouvrir-la-balagne/villages-arriere-pays/sant-antonino/",
+      "title": "Village de Sant Antonino Balagne Corse - Sant&#039;Antuninu Balagna Corsica"
+    },
+    {
+      "id": "balagne",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Sant%27Antonino%2C%2020220%20Sant%27Antonino&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Sant%27Antonino%2C%2020220%20Sant%27Antonino&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "occi",
+      "kind": "info",
+      "url": "https://balagne-corsica.com/patrimoine-culturel/village-abandonne-docci/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/patrimoine-culturel/village-abandonne-docci/",
+      "title": "Village abandonné d&#039;Oci ou Occi - Balagne Corsica"
+    },
+    {
+      "id": "occi",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Lumio%2C%20Haute-Corse&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Lumio%2C%20Haute-Corse&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "bodri",
+      "kind": "info",
+      "url": "https://balagne-corsica.com/decouvrir-la-balagne/mer-et-plages/bodri-et-ghjunchitu/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/decouvrir-la-balagne/mer-et-plages/bodri-et-ghjunchitu/",
+      "title": "Paysages de Balagne, les plages de Bodri et Ghjunchitu - Balagne Corsica"
+    },
+    {
+      "id": "bodri",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Bodri%2C%20Corbara&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Bodri%2C%20Corbara&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "algajola",
+      "kind": "info",
+      "url": "https://www.balagne-corsica.com/algajola/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/decouvrir-la-balagne/bord-de-mer/algajola/",
+      "title": "Village d&#039;Algajola Balagne Corse - paese d&#039;Algaiola Balagna Corsica"
+    },
+    {
+      "id": "algajola",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20d%27Algajola%2C%2020220%20Algajola&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20d%27Algajola%2C%2020220%20Algajola&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "revellata",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LA-REVELLATA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LA-REVELLATA",
+      "title": "LA REVELLATA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "revellata",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Presqu%27%C3%AEle%20de%20la%20Revellata%2C%20Calvi&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Presqu%27%C3%AEle%20de%20la%20Revellata%2C%20Calvi&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "asco",
+      "kind": "info",
+      "url": "https://fr.wikipedia.org/wiki/Asco",
+      "status": "200",
+      "final_url": "https://fr.wikipedia.org/wiki/Asco",
+      "title": "Asco — Wikipédia"
+    },
+    {
+      "id": "asco",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20G%C3%A9nois%20d%27Asco%2C%20Asco&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20G%C3%A9nois%20d%27Asco%2C%20Asco&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "ilerousse",
+      "kind": "info",
+      "url": "https://balagne-corsica.com/decouvrir-la-balagne/ile-rousse/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/decouvrir-la-balagne/ile-rousse/",
+      "title": "Découvrez L’Ile-Rousse lors de vos vacances en Corse - Balagne Corsica"
+    },
+    {
+      "id": "ilerousse",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Paoli%2C%20L%27%C3%8Ele-Rousse&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Paoli%2C%20L%27%C3%8Ele-Rousse&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "fango",
+      "kind": "info",
+      "url": "https://balagne-corsica.com/decouvrir-la-balagne/nos-espaces-preserves/vallee-du-fango/",
+      "status": "200",
+      "final_url": "https://balagne-corsica.com/decouvrir-la-balagne/nos-espaces-preserves/vallee-du-fango/",
+      "title": "La vallée du Fango, réserve de biosphère à protéger - Balagne Corsica"
+    },
+    {
+      "id": "fango",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20de%20Tuarelli%2C%20Manso&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Pont%20de%20Tuarelli%2C%20Manso&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "bonifacio",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LES-RUELLES-DE-BONIFACIO",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LES-RUELLES-DE-BONIFACIO",
+      "title": "LES RUELLES DE BONIFACIO | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "bonifacio",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20P1%2C%20Bonifacio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20P1%2C%20Bonifacio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "rondinara",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-RONDINARA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-RONDINARA",
+      "title": "PLAGE DE RONDINARA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "rondinara",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Rondinara%2C%20Bonifacio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20plage%20de%20Rondinara%2C%20Bonifacio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "sperone",
+      "kind": "info",
+      "url": "https://bonifacio.fr/a-voir-a-faire/les-plus-belles-plages-de-bonifacio/plage-de-sperone/",
+      "status": "200",
+      "final_url": "https://bonifacio.fr/a-voir-a-faire/les-plus-belles-plages-de-bonifacio/plage-de-sperone/",
+      "title": "Plage de Sperone | Office de Tourisme de Bonifacio"
+    },
+    {
+      "id": "sperone",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Piantarella%2C%20Bonifacio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Piantarella%2C%20Bonifacio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "palombaggia",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-PALOMBAGGIA-CALA-DI-LUNA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-PALOMBAGGIA-CALA-DI-LUNA",
+      "title": "PLAGE DE PALOMBAGGIA - CALA DI LUNA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "palombaggia",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Palombaggia%2C%20Porto-Vecchio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Palombaggia%2C%20Porto-Vecchio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "santagiulia",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-SANTA-GIULIA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/PLAGE-DE-SANTA-GIULIA",
+      "title": "PLAGE DE SANTA GIULIA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "santagiulia",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Santa%20Giulia%2C%20Porto-Vecchio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Santa%20Giulia%2C%20Porto-Vecchio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "pinarellu",
+      "kind": "info",
+      "url": "https://www.zonza-saintelucie.com/incontournables/nos-plages/la-plage-de-pinarello/",
+      "status": "200",
+      "final_url": "https://www.zonza-saintelucie.com/incontournables/nos-plages/la-plage-de-pinarello/",
+      "title": "La plage de la pinède de Pinarello - Zonza"
+    },
+    {
+      "id": "pinarellu",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Pinarello%2C%2020144%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Plage%20de%20Pinarello%2C%2020144%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "ospedale",
+      "kind": "info",
+      "url": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/barrage-de-lospedale/",
+      "status": "200",
+      "final_url": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/barrage-de-lospedale/",
+      "title": "BARRAGE DE L&#039;OSPEDALE - Office de tourisme de l&#039;Alta Rocca"
+    },
+    {
+      "id": "ospedale",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Barrage%20de%20l%27Ospedale%2C%20Porto-Vecchio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Barrage%20de%20l%27Ospedale%2C%20Porto-Vecchio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "zonza",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LES-AIGUILLES-DE-BAVELLA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/LES-AIGUILLES-DE-BAVELLA",
+      "title": "LES AIGUILLES DE BAVELLA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "zonza",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Col%20de%20Bavella%2C%20Quenza&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Col%20de%20Bavella%2C%20Quenza&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "levie",
+      "kind": "info",
+      "url": "https://www.alta-rocca-tourisme.com/patrimoine-culturel/sites-archeologiques-de-cuccuruzzu-et-de-capula/",
+      "status": "200",
+      "final_url": "https://www.alta-rocca-tourisme.com/patrimoine-culturel/sites-archeologiques-de-cuccuruzzu-et-de-capula/",
+      "title": "SITES ARCHEOLOGIQUES DE CUCCURUZZU ET DE CAPULA - Office de tourisme de l&#039;Alta Rocca"
+    },
+    {
+      "id": "levie",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Site%20arch%C3%A9ologique%20de%20Cucuruzzu%2C%20Levie&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Site%20arch%C3%A9ologique%20de%20Cucuruzzu%2C%20Levie&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "sartene",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/SARTE-SARTENE",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/SARTE-SARTENE",
+      "title": "SARTÈ - SARTENE | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "sartene",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Porta%2C%20Sart%C3%A8ne&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Place%20Porta%2C%20Sart%C3%A8ne&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "roccapina",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/A-CASA-DI-ROCCAPINA",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/A-CASA-DI-ROCCAPINA",
+      "title": "A CASA DI ROCCAPINA | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "roccapina",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=A%20Casa%20di%20Roccapina%2C%20Sart%C3%A8ne&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=A%20Casa%20di%20Roccapina%2C%20Sart%C3%A8ne&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "lavezzi",
+      "kind": "info",
+      "url": "https://bonifacio.fr/decouvrir/bonifacio-grandeur-nature/larchipel-des-iles-lavezzi/",
+      "status": "200",
+      "final_url": "https://bonifacio.fr/decouvrir/bonifacio-grandeur-nature/larchipel-des-iles-lavezzi/",
+      "title": "L’archipel des Iles Lavezzi | Office de Tourisme de Bonifacio"
+    },
+    {
+      "id": "lavezzi",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Bonifacio%2C%20Bonifacio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Bonifacio%2C%20Bonifacio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "pozzi",
+      "kind": "info",
+      "url": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/plateau-du-cuscionu/",
+      "status": "200",
+      "final_url": "https://www.alta-rocca-tourisme.com/patrimoine-naturel/plateau-du-cuscionu/",
+      "title": "PLATEAU DU CUSCIONU - Office de tourisme de l&#039;Alta Rocca"
+    },
+    {
+      "id": "pozzi",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Bucchinera%2C%20Quenza&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20de%20Bucchinera%2C%20Quenza&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "cavu",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Organismes/Tous-les-organismes/BUREAU-D-INFORMATION-TOURISTIQUE-DU-CAVU",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Organismes/Tous-les-organismes/BUREAU-D-INFORMATION-TOURISTIQUE-DU-CAVU",
+      "title": ""
+    },
+    {
+      "id": "cavu",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Bureau%20d%27Information%20Touristique%20du%20Cavu%2C%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Bureau%20d%27Information%20Touristique%20du%20Cavu%2C%20Sainte-Lucie-de-Porto-Vecchio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "ajaccio",
+      "kind": "info",
+      "url": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/",
+      "status": "200",
+      "final_url": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/",
+      "title": "Les Îles Sanguinaires et la presqu’île de la Parata - Ajaccio Tourisme"
+    },
+    {
+      "id": "ajaccio",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Pointe%20de%20la%20Parata%2C%20Ajaccio&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Pointe%20de%20la%20Parata%2C%20Ajaccio&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "urbino",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/ETANG-D-URBINU",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Patrimoine-naturel/Tout-le-patrimoine-naturel/ETANG-D-URBINU",
+      "title": ""
+    },
+    {
+      "id": "urbino",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89tang%20d%27Urbino%2C%20Ghisonaccia&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89tang%20d%27Urbino%2C%20Ghisonaccia&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "corte",
+      "kind": "info",
+      "url": "https://tourisme-centrecorse.corsica/la-vallee-de-la-restonica-2/",
+      "status": "200",
+      "final_url": "https://tourisme-centrecorse.corsica/la-vallee-de-la-restonica-2/",
+      "title": "LA VALLÉE DE LA RESTONICA - Office de Tourisme du Centre Corse"
+    },
+    {
+      "id": "corte",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Office%20de%20Tourisme%20de%20Corte%2C%20Corte&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Office%20de%20Tourisme%20de%20Corte%2C%20Corte&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "capcorse",
+      "kind": "info",
+      "url": "https://www.capcorse-tourisme.corsica/cap-corse-que-faire-les-incontournables/",
+      "status": "200",
+      "final_url": "https://www.capcorse-tourisme.corsica/cap-corse-que-faire-les-incontournables/",
+      "title": "Cap Corse : que faire ? Les incontournables &#8211; itinéraire pratique avec distances en kilomètres et temps de trajet avec carte | Cap Corse Tourisme"
+    },
+    {
+      "id": "capcorse",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Macinaggio%2C%20Rogliano&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Macinaggio%2C%20Rogliano&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "nonza",
+      "kind": "info",
+      "url": "https://destination-cap-corse.corsica/nonza/",
+      "status": "200",
+      "final_url": "https://destination-cap-corse.corsica/nonza/",
+      "title": "Nonza - Destination Cap Corse"
+    },
+    {
+      "id": "nonza",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Nonza%2C%20Haute-Corse&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Nonza%2C%20Haute-Corse&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "agriates",
+      "kind": "info",
+      "url": "https://www.corsica-saintflorent.com/lagriate/",
+      "status": "200",
+      "final_url": "https://www.corsica-saintflorent.com/lagriate/",
+      "title": "L&#039;Agriate - Saint Florent"
+    },
+    {
+      "id": "agriates",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Saint-Florent%2C%20Saint-Florent&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Saint-Florent%2C%20Saint-Florent&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "piana",
+      "kind": "info",
+      "url": "https://www.ouestcorsica.com/les-incontournables/les-calanques-de-piana-site-unesco/",
+      "status": "200",
+      "final_url": "https://www.ouestcorsica.com/les-incontournables/les-calanques-de-piana-site-unesco/",
+      "title": "Les calanques de Piana, site UNESCO - Ouest Corsica"
+    },
+    {
+      "id": "piana",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Porto%2C%20Ota&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Port%20de%20Porto%2C%20Ota&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "caporosso",
+      "kind": "info",
+      "url": "https://www.ouestcorsica.com/itineraires/tour-genoise-de-capo-rosso/",
+      "status": "200",
+      "final_url": "https://www.ouestcorsica.com/itineraires/tour-genoise-de-capo-rosso/",
+      "title": "TOUR GENOISE DE CAPO ROSSO à PIANA - Ouest Corsica"
+    },
+    {
+      "id": "caporosso",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Capo%20Rosso%2C%20Piana&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Parking%20Capo%20Rosso%2C%20Piana&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "cargese",
+      "kind": "info",
+      "url": "https://www.ouestcorsica.com/a-voir-a-faire/les-villages/cargese/",
+      "status": "200",
+      "final_url": "https://www.ouestcorsica.com/a-voir-a-faire/les-villages/cargese/",
+      "title": "Cargèse - Ouest Corsica"
+    },
+    {
+      "id": "cargese",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89glise%20grecque%20Saint-Spyridon%2C%20Carg%C3%A8se&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=%C3%89glise%20grecque%20Saint-Spyridon%2C%20Carg%C3%A8se&travelmode=driving",
+      "title": "Google Maps"
+    },
+    {
+      "id": "cascadeanglais",
+      "kind": "info",
+      "url": "https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS",
+      "status": "200",
+      "final_url": "https://www.visit-corsica.com/fr/Mon-sejour/Itineraires/Tous-les-itineraires/LA-CASCADE-DES-ANGLAIS",
+      "title": "LA CASCADE DES ANGLAIS | Site officiel du tourisme et des vacances en Corse"
+    },
+    {
+      "id": "cascadeanglais",
+      "kind": "route_url",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Gare%20de%20Vizzavona%2C%20Vivario&travelmode=driving",
+      "status": "200",
+      "final_url": "https://www.google.com/maps/dir/?api=1&destination=Gare%20de%20Vizzavona%2C%20Vivario&travelmode=driving",
+      "title": "Google Maps"
+    }
+  ]
+}
